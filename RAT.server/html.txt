@@ -1,0 +1,2440 @@
+<!DOCTYPE html><!-- Bundle type: RequireJs --><html lang="en-US" dir="ltr"><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/1481180/a59795fb-f407-4112-8df0-3cd97b229d1b/2025.7.21.15500/Blob/favicon.ico">
+
+
+
+
+        <meta name="robots" property="robots" content="index, follow">
+
+    <title>
+        Applications Developer | City of New York Jobs
+    </title>
+    <meta name="description" content="The NYC Department of Environmental Protection (DEP) enriches the environment and protects public health for all New Yorkers by providing 1.1 billion gallons of...">
+    <meta name="keywords" content="The NYC Department of Environmental Protection (DEP) enriches the environment and protects public health for all New Yorkers by providing 1.1 billion gallons of...">
+    <!--Basic Meta Tags--><meta http-equiv="CACHE-CONTROL" content="PRIVATE"><meta name="expires" content="never"><meta name="charset" content="UTF-8"><meta name="copyright" content="Copyright ©2025"><meta http-equiv="content-language" content="EN"><meta name="description" content=""><meta name="title" content="Applications Developer"><!--End Basic Meta Tags--><!--OG Tags below--><meta property="og:title" content="Applications Developer"><meta property="og:site_name" content="New York City"><meta name="og:description" content=""><meta name="og:url" content="https://cityjobs.nyc.gov/job/applications-developer-in-nyc-all-boros-jid-12745"><!--End OG Tags-->
+
+    <link rel="canonical" href="https://cityjobs.nyc.gov/job/applications-developer-in-nyc-all-boros-jid-12745">
+
+    
+        
+            <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-B1W20NMQ14&amp;cx=c&amp;gtm=4e59g0"></script><script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/44LqIOwVrGhp2lJ3fODa493O/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-81KiK8GhWyH80MsZl1vdzmMYc0XQX9aDGqEfT0ckWF5GLPX10rwo5y8vjpybBo6f"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TKWQFV5"></script><script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.PLtFj_-5DjQ.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-J85zQk73PCqZPyWTydWEIq3_4KA/cb=gapi.loaded_0?le=scs" async=""></script><script>
+                window.paqEnabled = false;
+            </script>
+
+    <script>
+        window.attraxAntiforgeryToken = "CfDJ8DWlKsfMbgBDvgIwfxK8KsVq8CNcbMX8hDgB9DX-BE-QDeBc4yTt8fqVekBahPwhbGfqTfJZTPp-kz5haugtnkIcSZSUEY3Tu4gfYuF8NmK8vrXG6hT_HPl-JdJrJmhNeAu5is5eZAY1GzzM48NVaFQ";
+    </script>
+
+    <script>
+        window.recaptchaToken = "";
+        window.fireRecaptchaVerify = function(actionName, fCallback) {
+            grecaptcha.ready(function() {
+                console.log("Action name: " + actionName);
+                 grecaptcha.execute('6LeJDMwnAAAAAOx7cZMSJlNYjBvKq3Krkq5OHS7z', {action: actionName }).then(function(token) {
+                     window.recaptchaToken = token;
+                     if(fCallback)
+                        fCallback();
+                 });
+            });
+        }
+    </script>
+    
+
+    <script type="text/javascript" src="https://apis.google.com/js/client.js" gapi_processed="true"></script>
+
+
+        <script type="text/javascript" async="" defer="" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="tybvilirtpuboq0"></script>
+
+    <script>
+        window.siteId = "a59795fb-f407-4112-8df0-3cd97b229d1b";
+        window.rolloutJsModules = "/Blob/js/modules";
+        window.googleMapsPublicKey = "";
+        window.siteUrlPrefix = "/";
+        window.buildVersion = "2025.7.21.15500";
+        window.useBootstrapJs = false
+
+
+        var require = {
+            urlArgs: "pv=8&siteId=" + window.siteId + "&build=" + window.buildVersion,
+            packages: [
+                {
+                    name: "TweenMax",
+                    location: "/productrolloutfiles/js/effects/gsap",
+                    main: "TweenMax.min.js"
+                }
+            ],
+            waitSeconds: 30,
+            paths: {
+                "lodash": "//eu.botrecruiter.com//resources/third-party/lodash.core.min",
+                "rollout": window.rolloutJsModules,
+                "client": window.rolloutJsModules + "/Client.min",
+                "attrax": "/js/requiremodules/attrax",
+                "async": "/js/requiremodules/plugin/async",
+                "lazyload": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/vanillalazyload12.2.0/lazyload.amd.min",
+                "sweetalert": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/sweetalert2/dist/sweetalert2.min",
+                "jqueryvalidate": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/dependencies/jqueryvalidate.min",
+                "jqueryFitText": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/requiremodules/attrax/jquery.fittext",
+                "jqueryvalidateunobtrusive":
+                    "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/dependencies/jqueryvalidateunobtrusive",
+                "jquery": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/dependencies/jquery351",
+                "bootstrap": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/dependencies/bootstrap341",
+                "dropzone": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/requiremodules/browser/dropzone-amd",
+                "spin": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/spin.min",
+                "ladda": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/ladda.min",
+                "intersectionpolyfill": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/intersectionobserveramd",
+                "owlcarousel": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/owlcarousel/owl.carousel.min",
+                "jqueryautocomplete": "/cop-asset/32e2fc5d-7eac-428a-b0e9-5e738fc4af38/js--jquery.autocomplete",
+                "fancybox": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/fancyBox/dist/jquery.fancybox",
+                "select2": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/select2.full.min",
+                "jqueryui": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/jquery-ui/1.13.2/jquery-ui.min",
+                "j_query_ui/dist/jquery-ui": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/jquery-ui/1.13.2/jquery-ui.min",
+                "touchpunch": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/jquery/touchpunch/touchpunch",
+                "cookies": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/requiremodules/browser/Cookies",
+                "ScrollToPlugin": "/productrolloutfiles/js/effects/gsap/plugins/ScrollToPlugin.min",
+                "videoJs": "/js/videojs",
+                "datetimepicker": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/bootstrap-datetimepicker.min",
+                "fourmatWindowScrollPlugin": "/productrolloutfiles/js/fourmatWindowScrollPlugin",
+                "tiltjs": "/productrolloutfiles/js/effects/tilt",
+                "skrollr": "/productrolloutfiles/js/effects/skrollr",
+                "cssvarspolyfill": "/js/cssvarspolyfill.min",
+                "ninjaSlider": "/js/ninja-slider2",
+                "thumbnailSlider": "/js/thumbnail-slider2",
+                "leafLet": "/js/leaflet",
+                "OneSignal": "https://cdn.onesignal.com/sdks/OneSignalSDK",
+                "swiper": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/swiper/swiper-bundle",
+                "swiperV11": "/swiper/v11/swiper-bundle.min",
+                "ScrollMagic": "/js/ScrollMagic",
+                "owlCarouselV2": "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/owlCarouselV2/owlCarouselV2",
+                "MotionPathPlugin": "/js/MotionPathPlugin",
+                "PapaParse" : "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/papaparse.min",
+                "ol" : "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/ol.min",
+            },
+            map: {
+                '*': {
+                    'jqueryui': 'j_query_ui/dist/jquery-ui'
+               },
+            },
+            shim: {
+                "jquery": {
+                    exports: "$"
+                },
+
+                "lodash": {
+                  exports: "_"
+                },
+
+                "leafLet": {
+                    exports: "L"
+                },
+
+                "ladda": {
+                    deps: ["jquery"]
+                },
+
+                "jqueryautocomplete" : {
+                    deps: [ "jquery" ]
+                },
+
+                "thumbnailSlider": {
+                    exports: "ThumbnailSlider"
+                },
+
+                "ninjaSlider": {
+                    exports: "NinjaSlider"
+                },
+
+                "owlcarousel": {
+                    deps: ["jquery"]
+                },
+
+                "fourmatWindowScrollPlugin": {
+            deps: ["jquery"]
+                },
+
+                "bootstrap": {
+                    deps: ["jquery"]
+                },
+
+                "jqueryvalidate": {
+                    deps: ["jquery"]
+                },
+
+                "jqueryFitText": {
+                    deps: ["jquery"]
+                },
+
+                "jqueryvalidateunobtrusive": {
+                    deps: ["jqueryvalidate"]
+                },
+
+                "ScrollToPlugin": {
+                    deps: ["TweenMax"]
+                },
+
+                "jqueryui": {
+                    deps: ["jquery"]
+                },
+
+                "j_query_ui/dist/jquery-ui": {
+                    deps: ["jquery"]
+                },
+
+                "touchpunch": {
+                    deps: [
+                        "jquery",
+                        "j_query_ui/dist/jquery-ui"
+                    ]
+                },
+
+                "fancybox": {
+                    deps: ["jquery"]
+                },
+
+                "datetimepicker": {
+                    deps: ["jquery", "bootstrap"]
+                },
+
+                "ScrollMagic": {
+                    exports: "ScrollMagic"
+                },
+
+                "owlCarouselV2": {
+                    deps: ["jquery"]
+                },
+
+                "swiper": {
+                    exports: "Swiper"
+                },
+
+                "swiperV11": {
+                    exports: "Swiper"
+                },
+
+                "MotionPathPlugin": {
+                    deps: ["TweenMax"],
+                    exports: "MotionPathPlugin"
+                },
+
+                "PapaParse": {
+                    exports: "PapaParse"
+                },
+
+                "ol": { exports: "ol" }
+            }
+        };
+    </script>
+
+    <script src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/requirejs/require.js"></script>
+
+    <script src="/cop-asset/32e2fc5d-7eac-428a-b0e9-5e738fc4af38/js--compiled--site.js?pv=8&amp;v=2025.7.21.15500"></script>
+
+    <script>
+    var attraxApplicationAccessor = {
+        getAttraxApplication: function() {
+            return new Promise(function (resolve, reject) {
+                var interval = setInterval(function () {
+                    if (window.attraxApplication != null) {
+                        clearInterval(interval);
+                        resolve(window.attraxApplication);
+                    }
+                }, 50);
+            });
+        }
+    };
+
+    define("AttraxApplicationAccessor", function () {
+        return attraxApplicationAccessor;
+    });
+
+    require(["cookies", "client", "jquery", "AttraxApplicationModule"], function(_cookies, ClientModule, $, AttraxApplicationModule) {
+        window.Cookies = _cookies;
+
+
+        var siteDetails = {
+            SiteId : "a59795fb-f407-4112-8df0-3cd97b229d1b",
+            BaseUrl : "https://cityjobs.nyc.gov",
+            UrlPrefix : "/",
+            GoogleRecaptchaPublicKey : "6LeJDMwnAAAAAOx7cZMSJlNYjBvKq3Krkq5OHS7z",
+        };
+
+        window.siteDetails = siteDetails;
+        window.attraxApplication = new AttraxApplicationModule.AttraxApplicationBundle($, siteDetails);
+        attraxApplicationAccessor.app = window.attraxApplication;
+
+        //  Run the client js code
+        var clientJs = new ClientModule.Client(window.attraxApplication);
+        if(clientJs && clientJs.init) {
+            try {
+            clientJs.init($);
+            } catch (e) {
+                console.error(e);
+            }
+        }
+    });
+
+    var dependencies = [
+        "IntersectionObserver" in window
+            ? null
+            : "intersectionpolyfill",
+        "lazyload",
+        "jquery"
+    ];
+
+    var onLazyLoad = function(el) {
+        //  Class used by old sites
+        $(el).addClass("loaded");
+
+        // Once an image is lazyloaded, preload all of the other elements with the same data-original
+        // so that lazy load doesn't try to lazyload a cached image
+        // (to minimize how noticeable lazyloading is)
+        var elementLazySrc = $(el).attr("data-original");
+        var $otherElements = $("[data-original='" + elementLazySrc + "']").not(el);
+        $otherElements.attr("src", elementLazySrc);
+        $otherElements.addClass("attrax-image--loaded");
+    };
+
+    require(dependencies, function(_, LazyLoad, $) {
+        $(document).ready(function() {
+            window.MyLazyLoad = new LazyLoad({
+                elements_selector: "[data-original]",
+                data_src: "original",
+                skip_invisible: false,
+                class_loaded: "attrax-image--loaded",
+                class_loading: "attrax-image--loading",
+                callback_loaded: function(el) { onLazyLoad(el); },
+                callback_load: function(el) { onLazyLoad(el); }
+            });
+        });
+    });
+
+    </script>
+
+
+
+
+
+    
+
+<link rel="preload" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/1481180/a59795fb-f407-4112-8df0-3cd97b229d1b/2025.7.21.15500/Blob/fonts/HelveticaNeueRegular.woff2" as="font" type="font/woff2" crossorigin="">    
+<link rel="preload" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/1481180/a59795fb-f407-4112-8df0-3cd97b229d1b/2025.7.21.15500/Blob/fonts/HelveticaNeueBold.woff2" as="font" type="font/woff2" crossorigin="">    
+<link rel="preload" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/1481180/a59795fb-f407-4112-8df0-3cd97b229d1b/2025.7.21.15500/Blob/fonts/HelveticaNeueLight.woff2" as="font" type="font/woff2" crossorigin="">    
+
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+    </script><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.pgV-E-68K-A.L.W.O/am=gMA/d=0/rs=AN8SPfpszKJssl6IA0boGClFdsaAZGtXEQ/m=el_main_css"><script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.en_US.MJjURbED_bA.O/am=AAAE/d=1/exm=el_conf/ed=1/rs=AN8SPfrx3X9SYiAdB31OHM8ZKdmGXe-TLQ/m=el_main"></script>
+<style>
+
+#jump-to-content { display: block !important; opacity:0 } #jump-to-content:focus { opacity: 1}
+</style>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TKWQFV5');</script>
+<!-- End Google Tag Manager -->
+            <link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/productrolloutfiles/fonts/all.min.css?v=2025.7.21.15500">
+            <link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/1481180/a59795fb-f407-4112-8df0-3cd97b229d1b/2025.7.21.15500/Blob/css/style.attrax.min.css?v=2025.7.21.15500">
+    <style>
+        .datetimepicker {
+            position: absolute;
+            background-color: white;
+            padding: 1rem;
+            border: 1px solid lightgrey;
+        }
+    </style>
+
+        <script>
+    </script>
+<link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/sweetalert2/dist/sweetalert2.min.css?async=yes" type="text/css"><link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/jquery-ui/themes/base/jquery-ui.min.css?async=yes" type="text/css"><link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/css/select2.min.css?async=yes" type="text/css"><link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/fancyBox/dist/jquery.fancybox.min.css?async=yes" type="text/css"><link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/css/print.css?async=yes" type="text/css"><link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/css/select2-bootstrap.min.css?async=yes" type="text/css"><link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/owlcarousel/owl.carousel.min.css?async=yes" type="text/css"><link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/owlcarousel/owl.theme.default.min.css?async=yes" type="text/css"><link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/css/bootstrap-datetimepicker.css?async=yes" type="text/css"><link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/owlCarouselV2/owl.carousel.min.css?async=yes" type="text/css"><link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/owlCarouselV2/owl.theme.default.min.css?async=yes" type="text/css"><link rel="stylesheet" href="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/swiper/swiper-bundle-css.min.css?async=yes" type="text/css"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cookies" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/requiremodules/browser/Cookies.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="client" src="/Blob/js/modules/Client.min.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="sweetalert" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/sweetalert2/dist/sweetalert2.min.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="select2" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/select2.full.min.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lazyload" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/vanillalazyload12.2.0/lazyload.amd.min.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/dependencies/jquery351.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="ol" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/ol.min.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="ladda" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/ladda.min.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryvalidate" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/dependencies/jqueryvalidate.min.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/dependencies/bootstrap341.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryautocomplete" src="/cop-asset/32e2fc5d-7eac-428a-b0e9-5e738fc4af38/js--jquery.autocomplete.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="j_query_ui/dist/jquery-ui" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/jquery-ui/1.13.2/jquery-ui.min.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spin" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/spin.min.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="touchpunch" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/jquery/touchpunch/touchpunch.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><style type="text/css"></style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="swiper" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/swiper/swiper-bundle.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="PapaParse" src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/js/papaparse.min.js?pv=8&amp;siteId=a59795fb-f407-4112-8df0-3cd97b229d1b&amp;build=2025.7.21.15500"></script><style type="text/css">  @-webkit-keyframes rotate {
+    from  { -webkit-transform: rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes rotate {
+    from  { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
+    .dropbox-dropin-btn, .dropbox-dropin-btn:link, .dropbox-dropin-btn:hover {
+      display: inline-block;
+      height: 14px;
+      font-family: "Lucida Grande", "Segoe UI", "Tahoma", "Helvetica Neue", "Helvetica", sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      color: #636363;
+      text-decoration: none;
+      padding: 1px 7px 5px 3px;
+      border: 1px solid #ebebeb;
+      border-radius: 2px;
+      border-bottom-color: #d4d4d4;
+        background: #fcfcfc;
+  background: -moz-linear-gradient(top, #fcfcfc 0%, #f5f5f5 100%);
+  background: -webkit-linear-gradient(top, #fcfcfc 0%, #f5f5f5 100%);
+  background: linear-gradient(to bottom, #fcfcfc 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f5f5f5',GradientType=0);  
+    }
+
+    .dropbox-dropin-default:hover, .dropbox-dropin-error:hover {
+      border-color: #dedede;
+      border-bottom-color: #cacaca;
+        background: #fdfdfd;
+  background: -moz-linear-gradient(top, #fdfdfd 0%, #f5f5f5 100%);
+  background: -webkit-linear-gradient(top, #fdfdfd 0%, #f5f5f5 100%);
+  background: linear-gradient(to bottom, #fdfdfd 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#f5f5f5',GradientType=0);  
+    }
+
+    .dropbox-dropin-default:active, .dropbox-dropin-error:active {
+      border-color: #d1d1d1;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    }
+
+    .dropbox-dropin-btn .dropin-btn-status {
+      display: inline-block;
+      width: 15px;
+      height: 14px;
+      vertical-align: bottom;
+      margin: 0 5px 0 2px;
+      background: transparent url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-saver-status.png') no-repeat;
+      position: relative;
+      top: 2px;
+    }
+
+    .dropbox-dropin-default .dropin-btn-status {
+      background-position: 0px 0px;
+    }
+
+    .dropbox-dropin-progress .dropin-btn-status {
+      width: 18px;
+      margin: 0 4px 0 0;
+      background: url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-progress.png') no-repeat center center;
+        -webkit-animation-name: rotate;
+        -webkit-animation-duration: 1.7s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+      animation-name: rotate;
+      animation-duration: 1.7s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    .dropbox-dropin-success .dropin-btn-status {
+      background-position: -15px 0px;
+    }
+
+    .dropbox-dropin-disabled {
+      background: #e0e0e0;
+      border: 1px #dadada solid;
+      border-bottom: 1px solid #ccc;
+      box-shadow: none;
+    }
+
+    .dropbox-dropin-disabled .dropin-btn-status {
+      background-position: -30px 0px;
+    }
+
+    .dropbox-dropin-error .dropin-btn-status {
+      background-position: -45px 0px;
+    }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.4) {
+      .dropbox-dropin-btn .dropin-btn-status {
+        background-image: url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-saver-status-2x.png');
+        background-size: 60px 14px;
+          -webkit-background-size: 60px 14px;
+      }
+
+      .dropbox-dropin-progress .dropin-btn-status {
+        background: url('https://www.dropbox.com/static/metaserver/static/images/widgets/dbx-progress-2x.png') no-repeat center center;
+        background-size: 20px 20px;
+          -webkit-background-size: 20px 20px;
+      }
+  }
+
+    .dropbox-saver:hover, .dropbox-chooser:hover {
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .dropbox-chooser, .dropbox-dropin-btn {
+      line-height: 11px !important;
+      text-decoration: none !important;
+      box-sizing: content-box !important;
+        -webkit-box-sizing: content-box !important;
+        -moz-box-sizing: content-box !important;
+    }
+    </style></head>
+
+
+<body id="body" data-context-optionids-pushnotifications="" data-page-id="037f89fc-4be8-4ee2-9dfd-08db5c4166ff" data-layout-id=" " class="no-modal-animations job-details      culture-en-us agency-deptofenvironmentprotection   jobtype-fulltime   titleclassification-exammayberequired   experiencelevel-experiencednonmanager   category-technologydatainnovation  ">
+
+    <div id="cookie-banner-container" style="">
+        <div class="grid-col-wrap">
+            <div class="grid-col grid-col-12-12">
+                <div id="cookie-banner">
+                    <div id="cookie-banner-message">
+                        This website uses cookies. By continuing to use this site, you are giving your consent to cookies being used. See our <a href="/privacy-policy" target="_blank">Privacy policy</a> for more info.
+                    </div>
+                    <a class="accept-link" href="#" onkeydown="AcceptPolicyHandler('cp');" onclick="AcceptPolicyHandler('cp');" tabindex="1" role="button" aria-label="Accept privacy policy">
+                        <i class="fa fa-check-square-o"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKWQFV5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<header class="main-header">
+     <a href="#main-site-main-content" id="jump-to-content">
+        Jump to main content.
+    </a>
+   
+    <div class="main-header__inner-container">
+        <a href="/" class="main-header__logo-container">
+            <img src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/1481180/a59795fb-f407-4112-8df0-3cd97b229d1b/2025.7.21.15500/Blob/images/logo.svg" alt="Jobs N Y C Homepage" height="21" width="125" class="main-header__logo">
+        </a>      <p class="main-header__sub-heading">
+        The Official Careers Website of the City of New York
+
+        </p>
+        <div class="main-header__action-btns">
+ <div class="main-site-header__mobile-open-search" role="button" aria-label="mobile search"></div>
+            
+
+
+<div class="cop-widget dynamic-widget inline-shortlist-widget empty" data-type="InlineShortlistWidget" id="a4e5e50c-61e4-3260-8029-5086d554fa72" data-id="a4e5e50c-61e4-3260-8029-5086d554fa72" role="button" tabindex="0" aria-label="Jobs Shortlist - 0 jobs saved">
+        <div class="dropdown shortlist-dropdown auto-hide inline-shortlist-widget__wrapper" hidden="" style="display: none;">
+            <span class="close-shortlist inline-shortlist-widget__closeBtn" hidden=""></span>
+            <a href="javascript:void(0);" class="dropdown-toggle shortlist-cart inline-shortlist-widget__cart" data-toggle="dropdown" aria-label="0 jobs in shortlist">
+                <span><i class="fa fa-heart-o"></i>Shortlist</span>
+                <sub class="fav-count">0</sub>
+            </a>
+            <div id="shortlist-container" class="dropdown-menu shortlist-container dropdown-menu-right inline-shortlist-widget__shortlist"></div>
+        </div>
+
+
+</div>
+
+            <a href="https://www.nyc.gov/" class="main-header__link">Explore nyc.gov</a>
+            <button class="main-header__language-select-toggle" aria-label="Language Picker" aria-expanded="false"></button>
+        </div>
+        
+    </div>
+    <div class="main-header__google-translate-container">
+        <div class="main-header__google-translate" id="google_translate_element"></div>
+    </div>
+    <div class="main-header__upper-section">
+        <div class="main-header__upper-section-inner-container">
+            <div class="main-header__search-section">
+                
+
+<div class="cop-widget dynamic-widget  attrax-search-widget     search-widget " data-type="SearchWidget" id="ee629882-d877-4081-aefc-0188d27b303d" data-id="ee629882-d877-4081-aefc-0188d27b303d">
+    <section class="keywordsearchwrapper attrax-search-widget__search-container">
+        <label class="attrax-search-widget__search-label">
+            Jobs
+        </label>
+
+
+        <div class="attrax-search-widget__form-items">
+
+            <div class="attrax-form-item jobsearchinput attrax-search-widget__search-input attrax-form-item--text"><input class="attrax-form-item__input" id="0971a147-ed5d-4bf3-8fbb-bf30deefb950" name="Content.Keyword" placeholder="Search open jobs" type="text" autocomplete="off"><label class="attrax-form-item__label" data-for="0971a147-ed5d-4bf3-8fbb-bf30deefb950" for="0971a147-ed5d-4bf3-8fbb-bf30deefb950">Keyword</label></div>
+
+        </div>
+
+        <a aria-label="Submit Job Search" class="attrax-search-widget__search-button jobsearchsubmit attrax-button" data-attrax-role="JobSearch" data-attrax-target="ee629882-d877-4081-aefc-0188d27b303d">Search</a>
+
+
+    </section>
+</div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<main id="main-site-main-content">
+    <div id="09e79f68-9258-4775-d9bb-08db5c41576c" class="layout " data-name="Blank" data-level="1" data-id="09e79f68-9258-4775-d9bb-08db5c41576c"><div class="main-content-block dragElement widget cop-widget content-widget" data-mode="readonly" data-category="Container" name="primary-content" id="037f89fc-4be8-4ee2-9dfd-08db5c4166ff"><div class="row dragElement widget container-widget wrapper-widget job-details__hero-area" data-category="Container" id="6ba2e9fc-a2c0-7611-5385-3a9825a6be7f" data-id="6ba2e9fc-a2c0-7611-5385-3a9825a6be7f" data-custom-classes="job-details__hero-area">
+        <div class="col-md-12 container-col ui-droppable" id="40e1620c-2791-4dd5-00b2-881c8b821b1a" data-id="40e1620c-2791-4dd5-00b2-881c8b821b1a" style="zoom: 1;"><div class="row dragElement widget container-widget wrapper-widget job-details__hero-inner-container" data-category="Container" id="98fb9a12-8ce7-dcce-8134-02b24f7913e4" data-id="98fb9a12-8ce7-dcce-8134-02b24f7913e4" data-custom-classes="job-details__hero-inner-container">
+        <div class="col-md-12 container-col ui-droppable" id="a265ab55-6d26-762a-7cd4-c840745d5ac7" data-id="a265ab55-6d26-762a-7cd4-c840745d5ac7" style="zoom: 1;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     title-widget " data-type="TitleWidget" id="5e18e7a5-5e03-9b26-4a54-733407411f42" data-id="5e18e7a5-5e03-9b26-4a54-733407411f42">
+    <h1 class="header">
+        <span class="header__prefix"></span>
+        <span class="header__text" id="headertext">
+            Applications Developer
+        </span>
+        <span class="header__suffix"></span>
+    </h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     vacancy-options-widget " data-type="VacancyOptionsWidget" id="b20bb436-b8ca-23a6-b1b9-6d8d63db6dfe" data-id="b20bb436-b8ca-23a6-b1b9-6d8d63db6dfe">
+    <ol>
+                <li class="Agency-wrapper">
+                    <label class="Agency">
+                        Agency:
+                    </label>
+                    DEPT OF ENVIRONMENT PROTECTION
+                </li>
+                     <script>
+                     document.body.className += " agency-deptofenvironmentprotection";
+                     </script>
+    </ol>
+
+    <script>
+        document.body.className += "  ";
+    </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     date-widget " data-type="DateWidget" id="49340d84-5718-ca1a-ebe1-a7126b1df722" data-id="49340d84-5718-ca1a-ebe1-a7126b1df722">
+    <div>
+        <span class="date-label">
+            Posted on:
+        </span>08/21/2023
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     vacancy-options-widget " data-type="VacancyOptionsWidget" id="1572428a-5d1c-d27e-586e-53e17e756d7c" data-id="1572428a-5d1c-d27e-586e-53e17e756d7c">
+    <ol>
+                <li class="Jobtype-wrapper">
+                    <label class="Jobtype">
+                        Job type:
+                    </label>
+                    Full-time
+                </li>
+                     <script>
+                     document.body.className += " jobtype-fulltime";
+                     </script>
+    </ol>
+
+    <script>
+        document.body.className += "  ";
+    </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="d38d6420-c170-ffe1-77c8-7ee5733f9b41" data-id="d38d6420-c170-ffe1-77c8-7ee5733f9b41">
+                <div class="attrax-job-information-widget__freetext-fields locationtext">
+                    <p class="attrax-job-information-widget__freetext-field-name">
+Location                    </p>
+                    <p class="attrax-job-information-widget__freetext-field-value">NYC-ALL BOROS</p>
+                </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     vacancy-options-widget " data-type="VacancyOptionsWidget" id="e31c5513-dd19-5b8a-5d8f-876534ee3f99" data-id="e31c5513-dd19-5b8a-5d8f-876534ee3f99">
+    <ol>
+                <li class="TitleClassification-wrapper">
+                    <label class="TitleClassification">
+                        Title Classification:
+                    </label>
+                    Exam may be required
+                </li>
+                     <script>
+                     document.body.className += " titleclassification-exammayberequired";
+                     </script>
+    </ol>
+
+    <script>
+        document.body.className += "  ";
+    </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="28580be8-7b11-1c76-e57b-ce7d0b9bcd70" data-id="28580be8-7b11-1c76-e57b-ce7d0b9bcd70">
+            <div class="attrax-job-information-widget__dynamic-fields">
+                    <div class="attrax-job-information-widget__dynamic-field department">
+                        <p class="attrax-job-information-widget__dynamic-field-name">Department</p>
+                        <p class="attrax-job-information-widget__dynamic-field-value">MUNI SEPARATE STORM SWR SYSTEM</p>
+                    </div>
+            </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="ea9eccc1-7543-18bb-1ebd-9a8f15395ec7" data-id="ea9eccc1-7543-18bb-1ebd-9a8f15395ec7">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     salary-widget " data-type="SalaryWidget" id="32eebeac-06f6-a626-566d-7b5ba622c495" data-id="32eebeac-06f6-a626-566d-7b5ba622c495">
+    <span>
+        <label>Salary range:</label>
+        <span>$81,951.00 – $111,330.00</span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+    </div></div>
+    </div><div class="row dragElement widget container-widget wrapper-widget job-details__main-content" data-category="Container" id="2c82bb48-5058-9bb8-86fa-5478f5c160d1" data-id="2c82bb48-5058-9bb8-86fa-5478f5c160d1" data-custom-classes="job-details__main-content">
+        <div class="col-md-12 container-col ui-droppable" id="d9078357-d13f-1b52-357e-6ef1651f05a3" data-id="d9078357-d13f-1b52-357e-6ef1651f05a3" style="zoom: 1;"><div class="wrapper-elem dragElement widget cop-widget content-widget"><h2 class="single-heading">Job Description</h2></div>
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     description-widget " data-type="DescriptionWidget" id="df0700d3-bde4-e048-7113-411f9f256b8b" data-id="df0700d3-bde4-e048-7113-411f9f256b8b">
+        <div aria-label="Job description"><p>The NYC Department of Environmental Protection (DEP) enriches the environment and protects public health for all New Yorkers by providing 1.1 billion gallons of high-quality drinking water, managing wastewater and stormwater, and reducing air, noise, and hazardous materials pollution.  DEP is the largest combined municipal water and wastewater utility in the country, with nearly 6,000 employees.  DEP's water supply system is comprised of 19 reservoirs and 3 controlled lakes throughout the system’s 2,000 square mile watershed that extends 125 miles north and west of the City<br><br>The New York City Department of Environmental Protection’s (DEP) Bureau of Information Technology (BIT) is responsible for providing quality business, technical and IT system support to our users. This commitment is realized through collaboration, strong relationships and a unified vision with our partners at DEP in order to provide quality technological solutions to our business needs. Providing these services allows us to ensure that DEP continues its tradition of delivering excellent service to the residents of New York City.<br><br>The Certified IT Developer (Applications) will be joining BIT’s Applications Development unit, reporting to the unit director, as a developer specializing in Microsoft Dynamics CRM, .NET Framework, C#, and T-SQL. The selected candidate will be working as part of a sub-team within the unit to deliver the Stormwater Permitting Unit and MS4 (Municipal Separate Storm Sewer System) application systems throughout its entire software development lifecycle (mainly in .NET, JavaScript, and in Microsoft Dynamics CRM/XRM) including design and planning, development, reporting, unit testing, quality assurance testing, installation, deployment, maintenance, and support. He/she will be the primary support person for the various components of the application system as well as the primary IT contact to the business bureau for this program. The candidate is responsible for understanding business requirements, translating those requirements into functional requirements and user interface mock-ups, implementing/developing the proposed solution, verifying that the application is according to specifications, and ensuring that the application meets end user expectations.<br><br>Competencies: <br>- Take responsibility and ownership of assigned projects and tasks<br>- Ability to analyze a business situation to identify problems and recommend solutions<br>- Demonstrate high level of initiative in self-learning<br>- Excel in teamwork with a collaborative mindset<br>- Willing to learn from others and teach others<br>- Demonstrate high level of proficiency in verbal and written communications<br><br>CERT IT DEVELOPER (APP) - 13643</p><br><div class="jobad-qualifications">Minimum Qualifications</div><br><p>Professional/Vendor Certification, Education and Experience Requirements: You must have current professional/vendor certifications.  <br>In addition, you must have one of the following: <br>1. A masters degree in computer science or a related field from an accredited college or university, accredited by regional, national, professional, or specialized agencies recognized as accrediting bodies by the U.S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA) AND 12 months of satisfactory full-time (not classroom based) specialized experience in computer applications development planning, design, configuration, installation, troubleshooting, integration, performance monitoring, maintenance, enhancement, and security management as described in the following nine Major Task Groups in the IT Titles Task Inventory*: Applications Development; Web Development, Design, and Maintenance; Business/Systems Analysis; Project Management Support; Application Design; GIS Structures, Spatial Analysis, and Mapping Principles; Testing; Technical Writing; and Version Control; OR <br>2. A baccalaureate degree from an accredited college or university, accredited by regional, national, professional, or specialized agencies recognized as accrediting bodies by the U.S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA) AND 24 months of satisfactory full-time (not classroom based) specialized experience as described in “1” above; OR <br>3. A four-year high school diploma or its educational equivalent approved by a State’s Department of Education or a recognized accrediting organization AND 24 months of satisfactory full-time (not classroom based) specialized experience as described in “1” above plus 48 months of information technology experience as described in the IT Task Inventory *; OR <br>4. A satisfactory combination of education and experience which is equivalent to “3” above. Education may be substituted for the information technology experience on the basis of 30 semester credits from an accredited college or university, accredited by regional, national, professional, or specialized agencies recognized as accrediting bodies by the U.S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA) is equivalent to 12 months of experience, up to a maximum of 48 months. However, if you qualify under options “2,” “3” or “4,” you must have at least a four-year high school diploma or its educational equivalent approved by a State’s Department of Education or a recognized accrediting organization and at least 24 months of satisfactory full-time (not classroom based) specialized information technology experience as described in “1” above.</p><br><div class="jobad-preferredSkills">Preferred Skills</div><br>- Experience with Dynamics 365/CRM Portals is highly preferred
+- At least 3 years of experience performing customizations and configurations on the Microsoft Dynamics 
+CRM/XRM platform (2013/2015/2016/365)
+- At least 5 years of experience developing web applications in C# using MVC, XML, and creating and 
+consuming WCF/REST services/WebAPI
+- At least 4 years of experience developing .NET plugins using C# and writing JavaScript for 
+customizations use in Dynamics CRM
+- At least 3 year of experience with .NET Framework 3.5 or higher and IIS 7.5 or higher
+- At least 5 years of experience writing complex queries in T-SQL
+- At least 3 year of experience developing reports using SSRS
+- At least 3 year of experience developing and using WCF and REST services.
+- Microsoft certifications for Dynamics CRM and .NET web applications are a plus
+- Strong verbal and written communication skills
+- Ability to meet deadlines, goals, and objectives within timeline
+- Certifications for Microsoft Dynamics CRM are strongly preferred
+- Certifications for .NET Framework, SQL, WebAPI, and Web Development are preferred<br><div class="jobad-fiftyFiveAProgram">55a Program</div><br>This position is also open to qualified persons with a disability who are eligible for the 55-a Program. Please indicate at the top of your resume and cover letter that you would like to be considered for the position through the 55-a Program.<br><div class="jobad-residencyRequirement">Residency Requirement</div><br>New York City Residency is not required for this position<br><div class="jobad-additionalInformation">Additional Information</div><br><div sr-tagline=""></div><p>The City of New York is an inclusive equal opportunity employer committed to recruiting and retaining a diverse workforce and providing a work environment that is free from discrimination and harassment based upon any legally protected status or protected characteristic, including but not limited to an individual's sex, race, color, ethnicity, national origin, age, religion, disability, sexual orientation, veteran status, gender identity, or pregnancy.</p></div>
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"JobPosting","url":"https://cityjobs.nyc.gov/job/applications-developer-in-nyc-all-boros-jid-12745","title":"Applications Developer","description":"<p>The NYC Department of Environmental Protection (DEP) enriches the environment and protects public health for all New Yorkers by providing 1.1 billion gallons of high-quality drinking water, managing wastewater and stormwater, and reducing air, noise, and hazardous materials pollution.  DEP is the largest combined municipal water and wastewater utility in the country, with nearly 6,000 employees.  DEP's water supply system is comprised of 19 reservoirs and 3 controlled lakes throughout the system’s 2,000 square mile watershed that extends 125 miles north and west of the City<br><br>The New York City Department of Environmental Protection’s (DEP) Bureau of Information Technology (BIT) is responsible for providing quality business, technical and IT system support to our users. This commitment is realized through collaboration, strong relationships and a unified vision with our partners at DEP in order to provide quality technological solutions to our business needs. Providing these services allows us to ensure that DEP continues its tradition of delivering excellent service to the residents of New York City.<br><br>The Certified IT Developer (Applications) will be joining BIT’s Applications Development unit, reporting to the unit director, as a developer specializing in Microsoft Dynamics CRM, .NET Framework, C#, and T-SQL. The selected candidate will be working as part of a sub-team within the unit to deliver the Stormwater Permitting Unit and MS4 (Municipal Separate Storm Sewer System) application systems throughout its entire software development lifecycle (mainly in .NET, JavaScript, and in Microsoft Dynamics CRM/XRM) including design and planning, development, reporting, unit testing, quality assurance testing, installation, deployment, maintenance, and support. He/she will be the primary support person for the various components of the application system as well as the primary IT contact to the business bureau for this program. The candidate is responsible for understanding business requirements, translating those requirements into functional requirements and user interface mock-ups, implementing/developing the proposed solution, verifying that the application is according to specifications, and ensuring that the application meets end user expectations.<br><br>Competencies: <br>- Take responsibility and ownership of assigned projects and tasks<br>- Ability to analyze a business situation to identify problems and recommend solutions<br>- Demonstrate high level of initiative in self-learning<br>- Excel in teamwork with a collaborative mindset<br>- Willing to learn from others and teach others<br>- Demonstrate high level of proficiency in verbal and written communications<br><br>CERT IT DEVELOPER (APP) - 13643</p><br/><div class='jobad-qualifications'>Minimum Qualifications</div><br/><p>Professional/Vendor Certification, Education and Experience Requirements: You must have current professional/vendor certifications.  <br>In addition, you must have one of the following: <br>1. A masters degree in computer science or a related field from an accredited college or university, accredited by regional, national, professional, or specialized agencies recognized as accrediting bodies by the U.S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA) AND 12 months of satisfactory full-time (not classroom based) specialized experience in computer applications development planning, design, configuration, installation, troubleshooting, integration, performance monitoring, maintenance, enhancement, and security management as described in the following nine Major Task Groups in the IT Titles Task Inventory*: Applications Development; Web Development, Design, and Maintenance; Business/Systems Analysis; Project Management Support; Application Design; GIS Structures, Spatial Analysis, and Mapping Principles; Testing; Technical Writing; and Version Control; OR <br>2. A baccalaureate degree from an accredited college or university, accredited by regional, national, professional, or specialized agencies recognized as accrediting bodies by the U.S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA) AND 24 months of satisfactory full-time (not classroom based) specialized experience as described in “1” above; OR <br>3. A four-year high school diploma or its educational equivalent approved by a State’s Department of Education or a recognized accrediting organization AND 24 months of satisfactory full-time (not classroom based) specialized experience as described in “1” above plus 48 months of information technology experience as described in the IT Task Inventory *; OR <br>4. A satisfactory combination of education and experience which is equivalent to “3” above. Education may be substituted for the information technology experience on the basis of 30 semester credits from an accredited college or university, accredited by regional, national, professional, or specialized agencies recognized as accrediting bodies by the U.S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA) is equivalent to 12 months of experience, up to a maximum of 48 months. However, if you qualify under options “2,” “3” or “4,” you must have at least a four-year high school diploma or its educational equivalent approved by a State’s Department of Education or a recognized accrediting organization and at least 24 months of satisfactory full-time (not classroom based) specialized information technology experience as described in “1” above.</p><br/><div class='jobad-preferredSkills'>Preferred Skills</div><br/>- Experience with Dynamics 365/CRM Portals is highly preferred\n- At least 3 years of experience performing customizations and configurations on the Microsoft Dynamics \nCRM/XRM platform (2013/2015/2016/365)\n- At least 5 years of experience developing web applications in C# using MVC, XML, and creating and \nconsuming WCF/REST services/WebAPI\n- At least 4 years of experience developing .NET plugins using C# and writing JavaScript for \ncustomizations use in Dynamics CRM\n- At least 3 year of experience with .NET Framework 3.5 or higher and IIS 7.5 or higher\n- At least 5 years of experience writing complex queries in T-SQL\n- At least 3 year of experience developing reports using SSRS\n- At least 3 year of experience developing and using WCF and REST services.\n- Microsoft certifications for Dynamics CRM and .NET web applications are a plus\n- Strong verbal and written communication skills\n- Ability to meet deadlines, goals, and objectives within timeline\n- Certifications for Microsoft Dynamics CRM are strongly preferred\n- Certifications for .NET Framework, SQL, WebAPI, and Web Development are preferred<br/><div class='jobad-fiftyFiveAProgram'>55a Program</div><br/>This position is also open to qualified persons with a disability who are eligible for the 55-a Program. Please indicate at the top of your resume and cover letter that you would like to be considered for the position through the 55-a Program.<br/><div class='jobad-residencyRequirement'>Residency Requirement</div><br/>New York City Residency is not required for this position<br/><div class='jobad-additionalInformation'>Additional Information</div><br/><div sr-tagline=\"\"></div><p>The City of New York is an inclusive equal opportunity employer committed to recruiting and retaining a diverse workforce and providing a work environment that is free from discrimination and harassment based upon any legally protected status or protected characteristic, including but not limited to an individual's sex, race, color, ethnicity, national origin, age, religion, disability, sexual orientation, veteran status, gender identity, or pregnancy.</p>","datePosted":"2025-02-11T14:57:31+00:00","validThrough":"2125-02-11T14:57:31+00:00","employmentType":["Full-time"],"hiringOrganization":{"@type":"Organization","name":"New York City","image":"","logo":"","sameAs":"https://cityjobs.nyc.gov","url":"https://cityjobs.nyc.gov"},"industry":[],"jobBenefits":"$81,951.00 – $111,330.00","identifier":{"@type":"PropertyValue","name":"New York City","value":"f5ebc8e7-8eb5-485c-8595-0be7c23ef360"},"jobLocation":[{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"NYC-ALL BOROS"}}]}
+</script></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     vacancy-buttons-widget " data-type="VacancyButtonsWidget" id="8028534d-9487-6896-df86-ea786a2a40e2" data-id="8028534d-9487-6896-df86-ea786a2a40e2">
+        <div class="btn-toolbar">
+                    <a class="jobApplyBtn btn btn-default" href="/Workflow?workflowId=32fbafeb-81f2-44be-847a-0dff01e036ad&amp;vacancyId=12745" rel="nofollow" title="Apply">
+                        Apply
+                    </a>
+                <button class="btn btn-default shortlistBtn" data-jobid="12745" aria-pressed="false" title="add job to short list" aria-label="add job to short list" onclick="toggleShortlist('12745')">Shortlist</button>
+        </div>
+</div>
+
+
+
+
+
+
+</div>
+    </div><div class="row dragElement widget container-widget wrapper-widget job-details__lower-info-container" data-category="Container" id="1045d469-8c2e-08d5-9f33-16707d86b83e" data-id="1045d469-8c2e-08d5-9f33-16707d86b83e" data-custom-classes="job-details__lower-info-container">
+        <div class="col-md-12 container-col ui-droppable" id="2e8ae6bc-4cf9-f41f-d6ea-fbbf6e95e439" data-id="2e8ae6bc-4cf9-f41f-d6ea-fbbf6e95e439" style="zoom: 1;"><div class="row dragElement widget container-widget wrapper-widget job-details__lower-inner" data-category="Container" id="85135232-0f5a-d7bc-1d45-de5d0c129adf" data-id="85135232-0f5a-d7bc-1d45-de5d0c129adf" data-custom-classes="job-details__lower-inner">
+        <div class="col-md-12 container-col ui-droppable" id="820b7c41-7ccf-2b47-e890-4499eb695b8b" data-id="820b7c41-7ccf-2b47-e890-4499eb695b8b" style="zoom: 1;">
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="a85c08ef-4bea-e59c-940a-cd3c8ae02130" data-id="a85c08ef-4bea-e59c-940a-cd3c8ae02130">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="9d7dd66c-ed15-7820-b661-b0e7a87456d4" data-id="9d7dd66c-ed15-7820-b661-b0e7a87456d4">
+                <div class="attrax-job-information-widget__freetext-fields externalreference">
+                    <p class="attrax-job-information-widget__freetext-field-name">
+Job ID                    </p>
+                    <p class="attrax-job-information-widget__freetext-field-value">552206</p>
+                </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="b2a3c029-b883-9e9d-4a4f-818a3276e61f" data-id="b2a3c029-b883-9e9d-4a4f-818a3276e61f">
+            <div class="attrax-job-information-widget__dynamic-fields">
+                    <div class="attrax-job-information-widget__dynamic-field title-code">
+                        <p class="attrax-job-information-widget__dynamic-field-name">Title code</p>
+                        <p class="attrax-job-information-widget__dynamic-field-value">13643</p>
+                    </div>
+            </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="4da83e0b-fcb6-a191-1bcd-c2ce789f7e8b" data-id="4da83e0b-fcb6-a191-1bcd-c2ce789f7e8b">
+            <div class="attrax-job-information-widget__dynamic-fields">
+                    <div class="attrax-job-information-widget__dynamic-field civil-service-title">
+                        <p class="attrax-job-information-widget__dynamic-field-name">Civil service title</p>
+                        <p class="attrax-job-information-widget__dynamic-field-value">CERT IT DEVELOPER (APP)</p>
+                    </div>
+            </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="c2fa610e-b344-7e85-a76f-5bc204656752" data-id="c2fa610e-b344-7e85-a76f-5bc204656752">
+            <div class="attrax-job-information-widget__dynamic-fields">
+                    <div class="attrax-job-information-widget__dynamic-field title-classification">
+                        <p class="attrax-job-information-widget__dynamic-field-name">Title classification</p>
+                        <p class="attrax-job-information-widget__dynamic-field-value">Competitive-1</p>
+                    </div>
+            </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="90cd39f5-30c5-06c2-b2db-8ab26f482e7e" data-id="90cd39f5-30c5-06c2-b2db-8ab26f482e7e">
+            <div class="attrax-job-information-widget__dynamic-fields">
+                    <div class="attrax-job-information-widget__dynamic-field business-title">
+                        <p class="attrax-job-information-widget__dynamic-field-name">Business title</p>
+                        <p class="attrax-job-information-widget__dynamic-field-value">Applications Developer</p>
+                    </div>
+            </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="14573a85-6974-11b6-3eff-cc9b9658f099" data-id="14573a85-6974-11b6-3eff-cc9b9658f099">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     vacancy-options-widget " data-type="VacancyOptionsWidget" id="604d627c-91d5-e144-3e0d-32cabdfa3dca" data-id="604d627c-91d5-e144-3e0d-32cabdfa3dca">
+    <ol>
+                <li class="Experiencelevel-wrapper">
+                    <label class="Experiencelevel">
+                        Experience level:
+                    </label>
+                    Experienced (non-manager)
+                </li>
+                     <script>
+                     document.body.className += " experiencelevel-experiencednonmanager";
+                     </script>
+    </ol>
+
+    <script>
+        document.body.className += "  ";
+    </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="d10f2adc-2d87-c5cb-119f-56d7324e0e8c" data-id="d10f2adc-2d87-c5cb-119f-56d7324e0e8c">
+            <div class="attrax-job-information-widget__dynamic-fields">
+                    <div class="attrax-job-information-widget__dynamic-field job-level">
+                        <p class="attrax-job-information-widget__dynamic-field-name">Job level</p>
+                        <p class="attrax-job-information-widget__dynamic-field-value">01</p>
+                    </div>
+            </div>
+</div>
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="9840bf6e-9862-0e55-8a8b-2674e8ee48a9" data-id="9840bf6e-9862-0e55-8a8b-2674e8ee48a9">
+            <div class="attrax-job-information-widget__dynamic-fields">
+                    <div class="attrax-job-information-widget__dynamic-field number-of-positions">
+                        <p class="attrax-job-information-widget__dynamic-field-name">Number of positions</p>
+                        <p class="attrax-job-information-widget__dynamic-field-value">1</p>
+                    </div>
+            </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="d6636dc1-67d4-df64-0dd3-1f2bb7b89350" data-id="d6636dc1-67d4-df64-0dd3-1f2bb7b89350">
+            <div class="attrax-job-information-widget__dynamic-fields">
+                    <div class="attrax-job-information-widget__dynamic-field work-location">
+                        <p class="attrax-job-information-widget__dynamic-field-name">Work location</p>
+                        <p class="attrax-job-information-widget__dynamic-field-value">59-17 Junction Blvd Corona Ny</p>
+                    </div>
+            </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     vacancy-options-widget " data-type="VacancyOptionsWidget" id="4f2f5f86-0296-5c64-c968-57844742d4c8" data-id="4f2f5f86-0296-5c64-c968-57844742d4c8">
+    <ol>
+                <li class="Category-wrapper">
+                    <label class="Category">
+                        Category:
+                    </label>
+                    Technology, Data &amp; Innovation
+                </li>
+                     <script>
+                     document.body.className += " category-technologydatainnovation";
+                     </script>
+    </ol>
+
+    <script>
+        document.body.className += "  ";
+    </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row dragElement" data-mode="readonly" data-category="Vacancies">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget   attrax-job-information-widget  job-information-widget " data-type="JobInformationWidget" id="e577223a-24b6-1b1f-3d1a-279f544472aa" data-id="e577223a-24b6-1b1f-3d1a-279f544472aa">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></div>
+    </div></div>
+    </div><div class="wrapper-elem dragElement widget cop-widget content-widget"><div class="sticky-apply">
+    <div class="sticky-apply__inner-container">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     title-widget " data-type="TitleWidget" id="3167c654-9d12-5292-2460-535fdb2db887" data-id="3167c654-9d12-5292-2460-535fdb2db887">
+    <p>
+        <span class="header__prefix"></span>
+        <span class="header__text" id="headertext">
+            Applications Developer
+        </span>
+        <span class="header__suffix"></span>
+    </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cop-widget dynamic-widget     vacancy-buttons-widget " data-type="VacancyButtonsWidget" id="4f0ec695-ff2f-ea4e-cd9a-7e9a84e342fa" data-id="4f0ec695-ff2f-ea4e-cd9a-7e9a84e342fa">
+        <div class="btn-toolbar">
+                    <a class="jobApplyBtn btn btn-default" href="/Workflow?workflowId=32fbafeb-81f2-44be-847a-0dff01e036ad&amp;vacancyId=12745" rel="nofollow">
+                        Apply
+                    </a>
+        </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div></div></div></div>
+</main>
+
+<footer class="footer">
+  <div class="footer__main">
+    <div class="footer__content">
+    <div class="footer__nav">
+      
+<nav class="cop-widget mainNav-widget dynamic-widget  " data-type="MainNav" data-require-config="true" data-id="c40c86f6-6fa9-4919-b434-befcdba4a33e" id="c40c86f6-6fa9-4919-b434-befcdba4a33e" aria-label="Main navigation">
+        <ul class=" navList navRoot"><li class=" first "><span class="text-node"><a data-id="lnk-b3c1bb87-05c4-4638-3493-08db76e66133" href="https://www.nyc.gov/home/privacy-policy.page"><span class="text">Privacy Policy</span></a></span>
+</li><li class=" "><span class="text-node"><a data-id="lnk-55a31bbc-5bf7-4881-3494-08db76e66133" href="https://www.nyc.gov/home/terms-of-use.page"><span class="text">Terms of Use</span></a></span>
+</li><li class=" last "><span class="text-node"><a data-id="lnk-3cd6db0b-7638-4e48-7b87-08db9364b6f9" href="https://www.nyc.gov/jobs/feedback-form.page" target="_blank"><span class="text">Feedback</span></a></span>
+</li></ul>
+</nav>
+    </div>
+    <div class="footer__search">
+      
+
+<div class="cop-widget dynamic-widget  attrax-search-widget     search-widget " data-type="SearchWidget" id="d67586e9-2527-4c5d-a493-37fc8b9b5d46" data-id="d67586e9-2527-4c5d-a493-37fc8b9b5d46">
+    <section class="keywordsearchwrapper attrax-search-widget__search-container">
+        <label class="attrax-search-widget__search-label">
+            Jobs
+        </label>
+
+
+        <div class="attrax-search-widget__form-items">
+
+            <div class="attrax-form-item jobsearchinput attrax-search-widget__search-input attrax-form-item--text"><input class="attrax-form-item__input" id="2833ca76-6c53-41e0-b9d9-2eaa4dd47634" name="Content.Keyword" placeholder="Search open jobs" type="text" autocomplete="off"><label class="attrax-form-item__label" data-for="2833ca76-6c53-41e0-b9d9-2eaa4dd47634" for="2833ca76-6c53-41e0-b9d9-2eaa4dd47634">Keyword</label></div>
+
+        </div>
+
+        <a aria-label="Submit Job Search" class="attrax-search-widget__search-button jobsearchsubmit attrax-button" data-attrax-role="JobSearch" data-attrax-target="d67586e9-2527-4c5d-a493-37fc8b9b5d46" href="">Search</a>
+
+
+    </section>
+</div>
+
+    </div>
+    </div>
+
+  </div>
+  <div class="footer__bottom-content">
+    <p>© City of New York. 2023 All Rights Reserved, <br>
+NYC is a trademark and service mark of the City of New York.</p>
+    <a href="https://www.nyc.gov/" class="footer__logo-container" target="_blank">
+        <img src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/1481180/a59795fb-f407-4112-8df0-3cd97b229d1b/2025.7.21.15500/Blob/images/logo-white.png" alt="N Y C Homepage" class="footer__logo" width="100" height="50">
+      </a>
+  </div>
+</footer>
+
+
+<div class="search-overlay">
+    <div class="search-overlay__container">
+        <div class="search-overlay__close-btn" role="button" aria-label="close the overlay"></div>
+        
+
+<div class="cop-widget dynamic-widget  attrax-search-widget     search-widget " data-type="SearchWidget" id="55c657a2-eaa0-4750-be39-567e41d4559f" data-id="55c657a2-eaa0-4750-be39-567e41d4559f">
+    <section class="keywordsearchwrapper attrax-search-widget__search-container">
+        <label class="attrax-search-widget__search-label">
+            Jobs
+        </label>
+
+
+        <div class="attrax-search-widget__form-items">
+
+            <div class="attrax-form-item jobsearchinput attrax-search-widget__search-input attrax-form-item--text"><input class="attrax-form-item__input" id="094a911f-ad0f-4fc9-8627-8ab754ef0dc3" name="Content.Keyword" placeholder="Search open jobs" type="text" autocomplete="off"><label class="attrax-form-item__label" data-for="094a911f-ad0f-4fc9-8627-8ab754ef0dc3" for="094a911f-ad0f-4fc9-8627-8ab754ef0dc3">Keyword</label></div>
+
+        </div>
+
+        <a aria-label="Submit Job Search" class="attrax-search-widget__search-button jobsearchsubmit attrax-button" data-attrax-role="JobSearch" data-attrax-target="55c657a2-eaa0-4750-be39-567e41d4559f">Search</a>
+
+
+    </section>
+</div>
+
+        <p class="search-overlay__heading"></p>
+        
+<nav class="cop-widget mainNav-widget dynamic-widget  " data-type="MainNav" data-require-config="true" data-id="49475c5f-9376-4516-b8c3-01188e96ac9c" id="49475c5f-9376-4516-b8c3-01188e96ac9c" aria-label="Main navigation">
+</nav>
+    </div>
+</div>
+
+<div class="screenreader-alert accessible-heading" aria-live="assertive"></div>
+
+
+
+
+
+
+
+<input class="contentId" hidden="" style="display: none">
+<div id="layoutContent" hidden="" style="display: none"></div>
+
+<script>
+    window.searchOnSuggestionSelection = true;
+</script>
+
+<div id="sitedetails" hidden="" style="display: none">
+    <input type="hidden" id="site-request-url" value="cityjobs.nyc.gov">
+    <input type="hidden" id="site-request-id" value="a59795fb-f407-4112-8df0-3cd97b229d1b">
+    <input type="hidden" id="site-request-prefix" value="/">
+    <div id="pageH1Header" class="hidden" style="display: none;" hidden="">job</div>
+</div>
+<div id="fr-ver" hidden="" style="display: none" data-val="9"></div>
+
+<div id="sitewidefilters" hidden="" style="display: none">
+    <div>Keyword: No Keyword</div>
+    <div>Options: 149, 188, 245, 323, 4, 47, 72</div>
+    <div>Location: US</div>
+    <div>City: New York</div>
+    <div>
+        GeoOptions: No options
+    </div>
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LeJDMwnAAAAAOx7cZMSJlNYjBvKq3Krkq5OHS7z&amp;badge=bottomright"></script>
+<script>
+grecaptcha.ready(function() {
+     grecaptcha.execute('6LeJDMwnAAAAAOx7cZMSJlNYjBvKq3Krkq5OHS7z', {action: "PageLoad"}).then(function(token) {});
+});
+</script>
+
+<script>
+    var asyncCssPaths = [
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/sweetalert2/dist/sweetalert2.min.css",
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/jquery-ui/themes/base/jquery-ui.min.css",
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/css/select2.min.css",
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/lib/fancyBox/dist/jquery.fancybox.min.css",
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/css/print.css",
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/css/select2-bootstrap.min.css",
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/owlcarousel/owl.carousel.min.css",
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/owlcarousel/owl.theme.default.min.css",
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/css/bootstrap-datetimepicker.css",
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/owlCarouselV2/owl.carousel.min.css",
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/owlCarouselV2/owl.theme.default.min.css",
+        "https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/StaticFiles/V1/swiper/swiper-bundle-css.min.css",
+    ];
+
+
+    var len = asyncCssPaths.length,
+        head = document.getElementsByTagName('head')[0];
+
+    for (var i = 0; i < len; i++) {
+        var r = document.createElement('link');
+        r.setAttribute("rel", "stylesheet");
+        r.setAttribute("href", asyncCssPaths[i] + "?async=yes");
+        r.setAttribute("type", "text/css");
+        head.appendChild(r);
+    }
+    
+</script>
+
+
+<style>
+    .modal-backdrop.in {
+        opacity: 1;
+    }
+</style>
+
+
+
+<div class="autocomplete-suggestions " style="position: absolute; display: none; max-height: 500px; z-index: 9999;"></div><div class="autocomplete-suggestions " style="position: absolute; display: none; max-height: 500px; z-index: 9999;"></div><div class="autocomplete-suggestions " style="position: absolute; display: none; max-height: 500px; z-index: 9999;"></div><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; position: fixed; visibility: hidden; display: block; transition: right 0.3s; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-cq31d2x0yceo" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeJDMwnAAAAAOx7cZMSJlNYjBvKq3Krkq5OHS7z&amp;co=aHR0cHM6Ly9jaXR5am9icy5ueWMuZ292OjQ0Mw..&amp;hl=en&amp;v=44LqIOwVrGhp2lJ3fODa493O&amp;size=invisible&amp;badge=bottomright&amp;anchor-ms=20000&amp;execute-ms=15000&amp;cb=acpzrimp7buy"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div></body></html>
