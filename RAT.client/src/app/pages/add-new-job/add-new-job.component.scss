@@ -1,0 +1,18 @@
+.new-job-wrapper {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+}
+
+textarea {
+    resize: none;
+}

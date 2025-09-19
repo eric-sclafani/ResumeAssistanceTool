@@ -6,16 +6,31 @@ builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options =>
+{
+	options.AddDefaultPolicy(cfg =>
+	{
+		cfg.WithOrigins(builder.Configuration["AllowedOrigins"]!);
+		cfg.AllowAnyHeader();
+		cfg.AllowAnyMethod();
+	});
+
+	options.AddPolicy("AnyOrigin", cfg =>
+	{
+		cfg.AllowAnyOrigin();
+		cfg.AllowAnyHeader();
+		cfg.AllowAnyMethod();
+	});
+});
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment()) app.MapOpenApi();
 
+app.UseCors();
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.UseSwagger();
 app.UseSwaggerUI();
 

@@ -1,0 +1,23 @@
+main {
+    display: flex;
+
+    .new-job-btn {
+        height: 50px;
+        width: 200px;
+        padding: 10px;
+        margin: 0 10px;
+        border-radius: 5px;
+    }
+}
+
+
+
+.job-cards-wrapper {
+    display: grid;
+    grid-template-columns: 2.2fr 1fr;
+    grid-template-rows: auto;
+    justify-items: end;
+    border: ridge black;
+    background-color: rgb(211, 211, 211, 0.6);
+
+}

@@ -5,14 +5,16 @@ using PuppeteerSharp;
 namespace RAT.server.Controllers;
 
 [ApiController]
-[Route("[controller]/[action]")]
+[Route("api/[controller]/[action]")]
 public class JobController : ControllerBase
 {
-	
-	
-	
-	
-	
+	[HttpGet]
+	public async Task<IActionResult> SaveNewJob()
+	{
+		return Ok();
+	}
+
+
 	[HttpGet]
 	public async Task<IActionResult> RetrieveJobPostFromUrl(string url)
 	{
@@ -30,10 +32,10 @@ public class JobController : ControllerBase
 		var htmlString = await page.GetContentAsync();
 		var doc = new HtmlDocument();
 		doc.LoadHtml(htmlString);
-		
+
 		System.IO.File.WriteAllText("/Users/eric/Projects/ResumeAssistanceTool/RAT.server/html.txt", htmlString);
 		await browser.CloseAsync();
-		
+
 		return Ok();
 	}
 }
