@@ -1,7 +1,9 @@
 <main>
     <button class="new-job-btn" routerLink="/newjob">Add new job</button>
 
-    <!-- <div class="job-cards-wrapper">
-        @for(job in jobs; )
-    </div> -->
+    <div class="job-cards-wrapper">
+        @for (job of jobs$ | async; track job.jobId) {
+            <app-job-card [job]="job"></app-job-card>
+        }
+    </div>
 </main>

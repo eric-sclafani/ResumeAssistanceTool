@@ -32,12 +32,9 @@ export class AddNewJobComponent implements OnInit {
             jobUrl: fgValues.jobUrl,
         };
 
-        this.jobApiService.saveJob(job).subscribe((result) => {
-            console.log(result.success);
-        });
+        this.jobApiService.saveJob(job).subscribe((result) => {});
     }
 
-    // TODO: when sending to backend, title case each skill
     private parseSkills(): string[] {
         let skills: string[] = [];
         const skillString = this.fg.controls.skills.value;

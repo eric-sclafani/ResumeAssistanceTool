@@ -58,6 +58,26 @@ public class JsonService : IJsonService
 		return jobs;
 	}
 
+	public Result<Job> DeleteJob(int jobId)
+	{
+		var result = new Result<Job>();
+		var allJobs = GetAllJobs();
+		var job = allJobs.Find(j => j.JobId == jobId);
+		if (job != null)
+		{
+			allJobs.Remove(job);
+			result.Data = job;
+			result.Message = "Success! Job removed.";
+		}
+		else
+		{
+			result.Message = "Error: job not found";
+			result.Success = false;
+		}
+
+		return result;
+	}
+
 	private static void HandleDataPaths(string folderPath, string filePath)
 	{
 		if (!Directory.Exists(folderPath)) Directory.CreateDirectory(folderPath);

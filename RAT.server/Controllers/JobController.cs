@@ -22,14 +22,25 @@ public class JobController : ControllerBase
 	public ActionResult<Result<Job>> SaveNewJob(Job job)
 	{
 		job.Skills = job.Skills?.Select(s => _textInfo.ToTitleCase(s.Trim()));
+		if (job.Title != null)
+			job.Title = _textInfo.ToTitleCase(job.Title);
+
 		var result = _jsonService.SaveNewJob(job);
 		return Ok(result);
 	}
 
 	[HttpGet]
-	public ActionResult<Result<Job[]>> GetAllJobs()
+	public ActionResult<Job[]> GetAllJobs()
 	{
-		return Ok();
+		var jobs = _jsonService.GetAllJobs();
+		return Ok(jobs);
+	}
+
+	[HttpDelete]
+	public ActionResult<Result<Job>> DeleteJob(int jobId)
+	{
+		var result = _jsonService.DeleteJob(jobId);
+		return result;
 	}
 
 

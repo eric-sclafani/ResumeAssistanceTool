@@ -6,4 +6,5 @@ public interface IJsonService
 {
 	public List<Job> GetAllJobs();
 	public Result<Job> SaveNewJob(Job job);
+	public Result<Job> DeleteJob(int jobId);
 }
