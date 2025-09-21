@@ -1,3 +1,6 @@
+using RAT.server.Interfaces;
+using RAT.server.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -5,6 +8,8 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddTransient<IJsonService, JsonService>();
 
 builder.Services.AddCors(options =>
 {

@@ -1,7 +1,7 @@
 export default interface Job {
-    title: string;
-    description: string;
-    skills: string[];
-    organizationName: string;
-    jobUrl: string;
+    jobId: number;
+    title: string | null;
+    description: string | null;
+    skills: string[] | null;
+    jobUrl: string | null;
 }

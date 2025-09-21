@@ -1,8 +1,9 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
-import { NewJobForm } from '../../models/newJobForm';
+import { NewJobForm } from '../../forms/newJob';
 import { JobApiService } from '../../services/job-api.service';
+import Job from '../../models/job';
 
 @Component({
     imports: [RouterLink, ReactiveFormsModule],
@@ -20,9 +21,20 @@ export class AddNewJobComponent implements OnInit {
     }
 
     onSubmit() {
+        const fgValues = this.fg.getRawValue();
         const skills = this.parseSkills();
 
-        console.log(this.fg.getRawValue());
+        const job: Job = {
+            jobId: 0,
+            title: fgValues.title,
+            description: fgValues.description,
+            skills: skills,
+            jobUrl: fgValues.jobUrl,
+        };
+
+        this.jobApiService.saveJob(job).subscribe((result) => {
+            console.log(result.success);
+        });
     }
 
     // TODO: when sending to backend, title case each skill
@@ -37,11 +49,10 @@ export class AddNewJobComponent implements OnInit {
 
     private initFormGroup(): void {
         this.fg = new FormGroup<NewJobForm>({
-            title: new FormControl(''),
-            description: new FormControl(''),
-            skills: new FormControl(''),
-            organizationName: new FormControl(''),
-            jobUrl: new FormControl(''),
+            title: new FormControl(null),
+            description: new FormControl(null),
+            skills: new FormControl(null),
+            jobUrl: new FormControl(null),
         });
     }
 }
