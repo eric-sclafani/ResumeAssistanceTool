@@ -5,6 +5,7 @@
     background-color: rgb(255, 228, 228);
     width: 500px;
 
+
     h3 {
         margin: 10px 0 1px 0;
     }
@@ -18,4 +19,14 @@
         letter-spacing: 0.5px;
     }
 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-btns {
+    display: flex;
+    gap: 5px;
 }

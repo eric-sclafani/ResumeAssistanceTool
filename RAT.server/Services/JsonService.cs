@@ -6,15 +6,20 @@ namespace RAT.server.Services;
 
 public class JsonService : IJsonService
 {
+	private readonly string filePath;
+	private readonly string folderPath;
 	private readonly JsonSerializerOptions options = new() { WriteIndented = true };
+
+	public JsonService()
+	{
+		folderPath = Directory.GetCurrentDirectory() + "/Data/";
+		filePath = Path.Combine(folderPath, "data.json");
+	}
 
 	public Result<Job> SaveNewJob(Job job)
 	{
 		var result = new Result<Job>();
-
-		var folderPath = Directory.GetCurrentDirectory() + "/Data/";
-		var filePath = Path.Combine(folderPath, "data.json");
-		HandleDataPaths(folderPath, filePath);
+		HandleDataPaths();
 
 		try
 		{
@@ -42,9 +47,8 @@ public class JsonService : IJsonService
 	public List<Job> GetAllJobs()
 	{
 		var jobs = new List<Job>();
-		var folderPath = Directory.GetCurrentDirectory() + "/Data/";
-		var filePath = Path.Combine(folderPath, "data.json");
-		HandleDataPaths(folderPath, filePath);
+		HandleDataPaths();
+
 		try
 		{
 			var json = File.ReadAllText(filePath);
@@ -66,6 +70,9 @@ public class JsonService : IJsonService
 		if (job != null)
 		{
 			allJobs.Remove(job);
+			var jsonString = JsonSerializer.Serialize(allJobs, options);
+			File.WriteAllText(filePath, jsonString);
+
 			result.Data = job;
 			result.Message = "Success! Job removed.";
 		}
@@ -78,7 +85,7 @@ public class JsonService : IJsonService
 		return result;
 	}
 
-	private static void HandleDataPaths(string folderPath, string filePath)
+	private void HandleDataPaths()
 	{
 		if (!Directory.Exists(folderPath)) Directory.CreateDirectory(folderPath);
 		if (!File.Exists(filePath)) File.Create(filePath);

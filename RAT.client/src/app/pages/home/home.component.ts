@@ -12,11 +12,11 @@ import { JobApiService } from '../../services/job-api.service';
     styleUrl: './home.component.scss',
 })
 export class HomeComponent implements OnInit {
-    private readonly _jobApiService = inject(JobApiService);
+    private readonly jobApiService = inject(JobApiService);
 
     jobs$: Observable<Job[]>;
 
     ngOnInit(): void {
-        this.jobs$ = this._jobApiService.getAllJobs();
+        this.jobs$ = this.jobApiService.getAllJobs();
     }
 }

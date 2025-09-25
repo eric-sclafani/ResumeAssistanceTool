@@ -1,5 +1,15 @@
 <div class="job-card">
-    <h2>{{ job().title }}</h2>
+    <div class="header">
+        <h2>{{ job().title }}</h2>
+        <div class="header-btns">
+            <button mat-icon-button class="edit-btn">
+                <mat-icon>edit</mat-icon>
+            </button>
+            <button mat-icon-button class="delete-btn" (click)="onDelete()">
+                <mat-icon>delete</mat-icon>
+            </button>
+        </div>
+    </div>
     <div class="qualifications">
         <h3>Mentioned Skills</h3>
         <ul>
@@ -13,4 +23,8 @@
     <p>
         {{ job().description }}
     </p>
+
+    <a [href]="job().jobUrl" target="_blank"
+        ><em>{{ job().jobUrl }}</em></a
+    >
 </div>

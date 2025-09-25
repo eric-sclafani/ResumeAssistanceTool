@@ -1,22 +1,13 @@
 [
   {
     "JobId": 1,
-    "Title": "dd",
-    "Description": "dd",
+    "Title": "Software Developer",
+    "Description": "this is my description for this position for developing software. We will reap the rewards while you code monkeys spend countless hours building our shitty app",
     "Skills": [
-      "Dd"
-    ],
-    "JobUrl": "dd"
-  },
-  {
-    "JobId": 2,
-    "Title": "software developer",
-    "Description": "You will write code while we at the top make millions of dollars on your hard work",
-    "Skills": [
-      "Javascript",
       "Typescript",
-      "ASP.NET Web API"
+      "Angular",
+      "ASP.NET Core"
     ],
-    "JobUrl": "www.gooooooogle.com"
+    "JobUrl": "www.indeed.com"
   }
 ]
