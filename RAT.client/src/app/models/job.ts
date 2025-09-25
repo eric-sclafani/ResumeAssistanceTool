@@ -1,4 +1,4 @@
-export default interface Job {
+export default class Job {
     jobId: number;
     title: string | null;
     description: string | null;

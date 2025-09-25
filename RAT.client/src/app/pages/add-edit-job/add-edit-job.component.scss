@@ -1,9 +1,13 @@
 .new-job-wrapper {
+    display: flex;
+
+}
+
+.form-wrapper {
     margin: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 100px;
 }
 
 form {
@@ -15,4 +19,8 @@ form {
 
 textarea {
     resize: none;
+}
+
+.home {
+    width: 100px;
 }

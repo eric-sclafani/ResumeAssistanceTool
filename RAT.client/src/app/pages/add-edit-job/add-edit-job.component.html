@@ -1,0 +1,39 @@
+<div class="new-job-wrapper">
+    <div class="form-wrapper">
+        <button class="home" routerLink="/home">Back to home</button>
+
+        @if (mode() == "edit" && jobId() == 0) {
+            <em
+                >Job ID must be supplied when editing a job posting. Check route
+                parameters
+            </em>
+        } @else {
+            <form [formGroup]="fg" (ngSubmit)="onSubmit()">
+                <input
+                    type="text"
+                    formControlName="title"
+                    placeholder="Job Title"
+                />
+                <textarea
+                    type="text"
+                    formControlName="description"
+                    placeholder="Description"
+                    rows="8"
+                ></textarea>
+                <input
+                    type="text"
+                    formControlName="skills"
+                    placeholder="Skills"
+                />
+                <input
+                    type="text"
+                    formControlName="jobUrl"
+                    placeholder="Job Url"
+                />
+                <button type="submit">Submit</button>
+            </form>
+        }
+    </div>
+
+    <app-job-card [job]="jobDisplay()"></app-job-card>
+</div>
