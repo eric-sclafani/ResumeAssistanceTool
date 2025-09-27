@@ -1,0 +1,41 @@
+$input-color: #6b70a5;
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px;
+}
+
+textarea {
+    resize: none;
+    padding: 11px 10px;
+    font-size: 1.1rem;
+    border: 2px $input-color solid;
+    border-radius: 10px;
+    color: rgb(123, 123, 123);
+    transition: all 0.2s ease-in-out;
+
+    &:focus {
+        outline: none;
+        border-radius: 14px;
+    }
+
+    &:focus+label {
+        transform: translate(-10px, -23px);
+    }
+}
+
+label {
+    font-size: 1rem;
+    order: -1;
+    pointer-events: none;
+    color: $input-color;
+    font-weight: 400;
+    position: relative;
+    top: 2.2rem;
+    margin: 0 0 0 20px;
+    background: white;
+    width: fit-content;
+    transition: all 0.15s ease-in-out;
+}

@@ -14,6 +14,7 @@
                     formControlName="title"
                     placeholder="Job Title"
                 />
+
                 <textarea
                     type="text"
                     formControlName="description"
@@ -37,3 +38,8 @@
 
     <app-job-card [job]="jobDisplay()"></app-job-card>
 </div>
+
+<app-dynamic-input label="Title"> </app-dynamic-input>
+<app-dynamic-textarea label="Description"></app-dynamic-textarea>
+<app-dynamic-input label="Skills"> </app-dynamic-input>
+<app-dynamic-input label="Job Url"> </app-dynamic-input>

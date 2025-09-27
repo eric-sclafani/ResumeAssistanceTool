@@ -30,7 +30,7 @@
         {{ job().description }}
     </p>
 
-    <a [href]="'https://' + job().jobUrl" target="_blank"
+    <a [href]="job().jobUrl" target="_blank"
         ><em>{{ job().jobUrl }}</em></a
     >
 </div>

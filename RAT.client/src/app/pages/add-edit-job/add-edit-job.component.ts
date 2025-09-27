@@ -18,10 +18,18 @@ import { JobApiService } from '../../services/job-api.service';
 import Job from '../../models/job';
 import { JobCardComponent } from '../../components/job-card/job-card.component';
 import { Subject, takeUntil } from 'rxjs';
+import { DynamicInputComponent } from '../../components/dynamic-input/dynamic-input.component';
+import { DynamicTextareaComponent } from '../../components/dynamic-textarea/dynamic-textarea.component';
 
 @Component({
     selector: 'app-add-edit-job',
-    imports: [RouterLink, ReactiveFormsModule, JobCardComponent],
+    imports: [
+        RouterLink,
+        ReactiveFormsModule,
+        JobCardComponent,
+        DynamicInputComponent,
+        DynamicTextareaComponent,
+    ],
     templateUrl: './add-edit-job.component.html',
     styleUrl: './add-edit-job.component.scss',
 })
@@ -35,7 +43,6 @@ export class AddEditJobComponent implements OnInit, OnDestroy {
     fg: FormGroup<NewJobForm>;
     jobDisplay = signal<Job>(new Job());
 
-    // TODO: make inputs resuable component
     ngOnInit(): void {
         this.initFormGroup();
     }
