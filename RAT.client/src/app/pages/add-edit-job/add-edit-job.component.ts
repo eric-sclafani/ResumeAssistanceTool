@@ -64,7 +64,8 @@ export class AddEditJobComponent implements OnInit, OnDestroy {
             jobUrl: fgValues.jobUrl,
         };
 
-        this.jobApiService.saveJob(job).subscribe((result) => {});
+        console.log(job);
+        // this.jobApiService.saveJob(job).subscribe((result) => {});
     }
 
     private parseSkills(): string[] {

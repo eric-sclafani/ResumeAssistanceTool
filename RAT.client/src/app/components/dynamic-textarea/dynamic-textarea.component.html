@@ -1,11 +1,14 @@
-<div class="input-wrapper">
+<form [formGroup]="formGroup()" class="input-wrapper">
     <textarea
         type="text"
         [id]="label()"
         [name]="label()"
-        formControlName="description"
+        [formControlName]="controlName()"
+        placeholder=" "
+        autocomplete="off"
+        spellcheck="false"
         rows="8"
-        cols="50"
+        required
     ></textarea>
     <label for="">{{ label() }}</label>
-</div>
+</form>

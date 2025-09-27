@@ -9,37 +9,33 @@
             </em>
         } @else {
             <form [formGroup]="fg" (ngSubmit)="onSubmit()">
-                <input
-                    type="text"
-                    formControlName="title"
-                    placeholder="Job Title"
-                />
-
-                <textarea
-                    type="text"
-                    formControlName="description"
-                    placeholder="Description"
-                    rows="8"
-                ></textarea>
-                <input
-                    type="text"
-                    formControlName="skills"
-                    placeholder="Skills"
-                />
-                <input
-                    type="text"
-                    formControlName="jobUrl"
-                    placeholder="Job Url"
-                />
-                <button type="submit">Submit</button>
+                <app-dynamic-input
+                    label="Title"
+                    controlName="title"
+                    [formGroup]="fg"
+                >
+                </app-dynamic-input>
+                <app-dynamic-input
+                    label="Skills"
+                    controlName="skills"
+                    [formGroup]="fg"
+                >
+                </app-dynamic-input>
+                <app-dynamic-input
+                    label="Job Url"
+                    controlName="jobUrl"
+                    [formGroup]="fg"
+                >
+                </app-dynamic-input>
+                <app-dynamic-textarea
+                    label="Description"
+                    controlName="description"
+                    [formGroup]="fg"
+                ></app-dynamic-textarea>
+                <button class="submit" type="submit">Submit</button>
             </form>
         }
     </div>
 
     <app-job-card [job]="jobDisplay()"></app-job-card>
 </div>
-
-<app-dynamic-input label="Title"> </app-dynamic-input>
-<app-dynamic-textarea label="Description"></app-dynamic-textarea>
-<app-dynamic-input label="Skills"> </app-dynamic-input>
-<app-dynamic-input label="Job Url"> </app-dynamic-input>
