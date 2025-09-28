@@ -12,23 +12,26 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { JobApiService } from '../../services/job-api.service';
 import { Subject } from 'rxjs';
-import { RouterLink } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-job-card',
-    imports: [MatIconModule, MatButtonModule, RouterLink],
+    imports: [MatIconModule, MatButtonModule],
     templateUrl: './job-card.component.html',
     styleUrl: './job-card.component.scss',
 })
 export class JobCardComponent implements OnInit {
     private readonly jobApiService = inject(JobApiService);
+    private readonly router = inject(Router);
     job = input.required<Job>();
     triggerRefresh = model(new Subject<void>());
     isAddingNew = computed<boolean>(() => this.job().jobId == undefined);
 
     ngOnInit(): void {}
 
-    onEdit() {}
+    onEdit() {
+        this.router.navigateByUrl(`job/edit/${this.job().jobId}`);
+    }
 
     onDelete() {
         this.jobApiService.deleteJob(this.job().jobId).subscribe((result) => {

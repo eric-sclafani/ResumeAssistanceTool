@@ -1,18 +1,25 @@
+h1,
+.form-wrapper {
+    margin: 10px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
 .new-job-wrapper {
     display: flex;
-
 }
 
 .form-wrapper {
-    margin: 10px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    border: double #6b70a5 2px;
+    border: double #6b70a5 5px;
     border-top: dashed #6b70a5 1px;
     border-bottom: dashed #6b70a5 1px;
     border-radius: 10px;
     padding: 20px;
+    background-color: rgba(235, 235, 235, 0.207);
 
 
 }
@@ -20,7 +27,7 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     width: 600px;
 }
 

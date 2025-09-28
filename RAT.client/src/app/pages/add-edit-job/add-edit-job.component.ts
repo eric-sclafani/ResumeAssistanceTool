@@ -1,5 +1,6 @@
 import {
     Component,
+    computed,
     inject,
     input,
     OnDestroy,
@@ -20,6 +21,7 @@ import { JobCardComponent } from '../../components/job-card/job-card.component';
 import { Subject, takeUntil } from 'rxjs';
 import { DynamicInputComponent } from '../../components/dynamic-input/dynamic-input.component';
 import { DynamicTextareaComponent } from '../../components/dynamic-textarea/dynamic-textarea.component';
+import { SnackbarService } from '../../services/snackbar.service';
 
 @Component({
     selector: 'app-add-edit-job',
@@ -35,10 +37,14 @@ import { DynamicTextareaComponent } from '../../components/dynamic-textarea/dyna
 })
 export class AddEditJobComponent implements OnInit, OnDestroy {
     private readonly jobApiService = inject(JobApiService);
+    private readonly snackbarService = inject(SnackbarService);
     private readonly destroy$ = new Subject<void>();
 
     mode = input.required<'add' | 'edit'>();
     jobId = input(0);
+    headerMsg = computed<string>(() =>
+        this.mode() == 'add' ? 'Adding New' : 'Editing',
+    );
 
     fg: FormGroup<NewJobForm>;
     jobDisplay = signal<Job>(new Job());
@@ -63,9 +69,11 @@ export class AddEditJobComponent implements OnInit, OnDestroy {
             skills: skills,
             jobUrl: fgValues.jobUrl,
         };
-
-        console.log(job);
-        // this.jobApiService.saveJob(job).subscribe((result) => {});
+        this.jobApiService.saveJob(job).subscribe((result) => {
+            if (result.success) {
+                this.snackbarService.sucess('Job successfully created.');
+            }
+        });
     }
 
     private parseSkills(): string[] {

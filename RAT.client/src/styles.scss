@@ -2,5 +2,21 @@
     box-sizing: border-box;
     // margin: 0px;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.snackbar-success {
+    background-color: rgb(121, 191, 121);
+}
+
+.snackbar-error {
+    background-color: rgb(213, 93, 93)
+}

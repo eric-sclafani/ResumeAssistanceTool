@@ -1,22 +1,30 @@
 [
   {
-    "JobId": 1,
-    "Title": "Dadfaasasd",
-    "Description": "ggggggggggggggggg",
+    "JobId": 3,
+    "Title": "C# Developer",
+    "Description": "We are seeking an associate - level developer to join our Equity Derivatives Risk and P\u0026L Management team. You will be part of a team developing a front-office platform used globally for flow, structured, convertibles and delta one desks. This is an excellent opportunity for a motivated individual to learn equity derivatives pricing and risk management while working in a dynamic front-office environment. You will work alongside experienced developers and receive mentoring while contributing to various aspects of the platform including UI, compute grid, and trading services.",
     "Skills": [
-      "Hhhhhhhhhh"
-    ],
-    "JobUrl": "aaaaaaaaaaaa"
-  },
-  {
-    "JobId": 2,
-    "Title": "Junior .NET Developer",
-    "Description": "In this role, you will actively code and maintain .NET code bases and constantly work with front end developers to deliver high quality solutions to clients",
-    "Skills": [
-      "ASP.NET Core",
-      "Angular",
+      "C#",
+      "SQL",
+      "Database",
+      "Team Work",
       "Communication"
     ],
-    "JobUrl": "www.google.com"
+    "JobUrl": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4303204999"
+  },
+  {
+    "JobId": 4,
+    "Title": "Full Stack .NET Developer",
+    "Description": "We are seeking a highly skilled Full Stack .NET Developer with strong experience in cloud-based development to join our growing team. The ideal candidate will have a solid background in building scalable web applications using the Microsoft .NET stack, along with hands-on experience deploying and maintaining applications in the cloud (preferably Azure or AWS). You will play a key role in designing, developing, and delivering enterprise-grade applications that drive business value.",
+    "Skills": [
+      "C#",
+      "ASP.NET Core",
+      ".NET 6/7",
+      "Angular",
+      "Web API",
+      "SQL Server",
+      "Azure"
+    ],
+    "JobUrl": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4297593433"
   }
 ]
