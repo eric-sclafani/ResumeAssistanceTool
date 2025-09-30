@@ -1,6 +1,4 @@
 <main>
-    <button class="new-job-btn" routerLink="/job/add/0">Add new job</button>
-
     <div class="job-cards-wrapper">
         @for (job of jobs$ | async; track job.jobId) {
             <app-job-card

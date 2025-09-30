@@ -26,7 +26,6 @@ import { SnackbarService } from '../../services/snackbar.service';
 @Component({
     selector: 'app-add-edit-job',
     imports: [
-        RouterLink,
         ReactiveFormsModule,
         JobCardComponent,
         DynamicInputComponent,

@@ -1,0 +1,18 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.special-letter {
+    font-size: 3rem;
+    color: rgb(38, 38, 179);
+}
+
+.home-btn,
+.new-job-btn {
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+}

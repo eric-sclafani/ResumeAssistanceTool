@@ -3,10 +3,15 @@
         <h2>{{ job().title }}</h2>
         @if (!isAddingNew()) {
             <div class="header-btns">
-                <button mat-icon-button class="edit-btn" (click)="onEdit()">
+                <a [href]="job().jobUrl" target="_blank"
+                    ><button mat-icon-button>
+                        <mat-icon>link</mat-icon>
+                    </button></a
+                >
+                <button mat-icon-button (click)="onEdit()">
                     <mat-icon>edit</mat-icon>
                 </button>
-                <button mat-icon-button class="delete-btn" (click)="onDelete()">
+                <button mat-icon-button (click)="onDelete()">
                     <mat-icon>delete</mat-icon>
                 </button>
             </div>
@@ -29,8 +34,4 @@
     <p>
         {{ job().description }}
     </p>
-
-    <a [href]="job().jobUrl" target="_blank"
-        ><em>{{ job().jobUrl }}</em></a
-    >
 </div>

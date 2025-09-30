@@ -1,8 +1,6 @@
 <h1>{{ headerMsg() }} Job</h1>
 <div class="new-job-wrapper">
     <div class="form-wrapper">
-        <button class="home" routerLink="/home">Back to home</button>
-
         @if (mode() == "edit" && jobId() == 0) {
             <em
                 >Job ID must be supplied when editing a job posting. Check route
