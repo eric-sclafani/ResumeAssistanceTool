@@ -2,14 +2,10 @@ main {
     display: flex;
 }
 
-
-
 .job-cards-wrapper {
     display: grid;
+    margin: 0px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-
-    border: ridge black;
-    background-color: rgb(211, 211, 211, 0.6);
 
 }

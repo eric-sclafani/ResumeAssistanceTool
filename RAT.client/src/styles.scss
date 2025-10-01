@@ -1,3 +1,5 @@
+@use '@angular/material' as mat;
+
 * {
     box-sizing: border-box;
     // margin: 0px;
@@ -9,14 +11,17 @@ body {
 }
 
 body {
-    margin: 0 20px;
+    margin: 0 10px;
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .snackbar-success {
-    background-color: rgb(121, 191, 121);
+    @include mat.snack-bar-overrides((container-color: rgb(121, 191, 121),
+            supporting-text-color: white));
 }
 
+
 .snackbar-error {
-    background-color: rgb(213, 93, 93)
+    @include mat.snack-bar-overrides((container-color: rgb(213, 93, 93),
+            supporting-text-color: white));
 }

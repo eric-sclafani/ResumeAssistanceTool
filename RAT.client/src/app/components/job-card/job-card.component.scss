@@ -1,10 +1,17 @@
 .job-card {
     margin: 10px;
-    padding: 5px;
-    border: palevioletred 1px solid;
-    background-color: rgb(255, 228, 228);
-    width: 500px;
+    padding: 5px 20px;
+    border: rgb(203, 203, 203) 1px solid;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 550px;
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
 
     h3 {
         margin: 10px 0 1px 0;

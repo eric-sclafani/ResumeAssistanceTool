@@ -26,5 +26,64 @@
       "Azure"
     ],
     "JobUrl": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4297593433"
+  },
+  {
+    "JobId": 5,
+    "Title": "Full Stack Engineer",
+    "Description": "\n\n\u00B7 Designing, coding, testing, and maintaining software applications\n\n\u00B7 Lead software development projects, managing timelines, and ensuring the delivery of high-quality software\n\n\u00B7 Conduct code reviews, ensuring code quality, performance, and adherence to best practices\n\n\u00B7 Analyze and troubleshoot software issues, identifying root causes and implementing effective solutions\n\n\u00B7 Contribute to architectural decisions, technology choices, and overall software strategy",
+    "Skills": [
+      "Typescript",
+      "T-SQL",
+      "C#",
+      "ASP.NET Core MVC",
+      ".NET 9",
+      "Jquery",
+      "SQL Server"
+    ],
+    "JobUrl": "https://www.indeed.com/viewjob?jk=5ec01294d48183a5\u0026from=shareddesktop_copy"
+  },
+  {
+    "JobId": 6,
+    "Title": "Full Stack Developer",
+    "Description": "Looking to add a .NET Developer to a very successful and growing team. Candidate will develop, design, test and deploy websites as well as support and maintain existing functionality.\n\nCandidate should be experienced and productive with Microsoft development technologies. A solid understanding of design patterns, object orientation and best practices is a must. Candidate should be skilled and experienced with the C# language, the .Net platform, Microsoft web technologies and Microsoft development technologies. Mobile application development is a plus.",
+    "Skills": [
+      "Angular",
+      "C#",
+      "SQL Server",
+      "Javascript",
+      "MVC Framework",
+      ".NET Core",
+      "HTML5"
+    ],
+    "JobUrl": "https://www.indeed.com/viewjob?jk=719977c6f450d1e9\u0026from=shareddesktop_copy"
+  },
+  {
+    "JobId": 7,
+    "Title": "Full Stack Engineer",
+    "Description": "As a Full Stack Engineer in the Partnerships Integration team, your day will involve building and maintaining integrations with high-profile partners such as Capital One, Shopify, and Fiserv, helping bring Melio\u0027s platform capabilities to these partners.\nYou will play a critical role in creating custom solutions for these partners, allowing small businesses to manage their payments more efficiently and at various touch points.\nWe are constantly iterating on our platform to ensure a smooth integration process for partners while maintaining flexibility and speed in launching new features.\nYour work will span the entire stack, including building APIs and integrating external systems.",
+    "Skills": [
+      "Nodejs",
+      "Vuejs/React/Angular",
+      "Typescript",
+      "Mysql"
+    ],
+    "JobUrl": "https://www.indeed.com/viewjob?jk=749eff8488e9320c\u0026from=shareddesktop_copy"
+  },
+  {
+    "JobId": 8,
+    "Title": "Software Developer",
+    "Description": "\n    Design, develop, test, and deploy high-quality software solutions.\n    Collaborate with cross-functional teams (designers, analysts, testers, product managers) to deliver robust applications.\n    Write clean, efficient, and maintainable code.\n    Troubleshoot, debug, and upgrade existing systems.\n    Participate in code reviews and contribute to best practices.\n    Stay updated with emerging technologies, frameworks, and industry trends.\n",
+    "Skills": [
+      "Typescript",
+      "HTML",
+      "Javascript",
+      "Angular",
+      "React",
+      "Nodejs",
+      "Database",
+      "C#",
+      "Python"
+    ],
+    "JobUrl": "https://www.indeed.com/viewjob?jk=d70f6e3f48346dc0\u0026from=shareddesktop_copy"
   }
 ]

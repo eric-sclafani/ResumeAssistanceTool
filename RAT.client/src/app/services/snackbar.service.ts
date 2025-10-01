@@ -20,7 +20,7 @@ export class SnackbarService {
         duration: number,
         panelClass: string,
     ): void {
-        this.snackbar.open(message, 'Dismiss', {
+        this.snackbar.open(message, '', {
             duration: duration,
             panelClass: panelClass,
             verticalPosition: 'top',
