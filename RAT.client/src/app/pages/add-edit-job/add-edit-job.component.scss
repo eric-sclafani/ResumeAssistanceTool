@@ -1,17 +1,18 @@
-h1,
-.form-wrapper {
+h1 {
     margin: 10px;
 }
+
 
 h1 {
     margin-top: 0px;
 }
 
-.new-job-wrapper {
+.job-page-wrapper {
     display: flex;
+    gap: 50px;
 }
 
-.form-wrapper {
+.job-form {
     display: flex;
     flex-direction: column;
     border: double #6b70a5 5px;
@@ -29,13 +30,28 @@ form {
     flex-direction: column;
     gap: 20px;
     width: 600px;
+    align-items: center
 }
 
-.submit,
-.home {
+.submit {
     width: 150px;
     padding: 10px;
     border-radius: 10px;
     border: none;
     font-size: .95rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        box-shadow: none;
+    }
+}
+
+.job-form-wrapper,
+.job-preview {
+    display: flex;
+    flex-direction: column;
 }

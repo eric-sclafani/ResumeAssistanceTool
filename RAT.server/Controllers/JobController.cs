@@ -33,14 +33,30 @@ public class JobController : ControllerBase
 	public ActionResult<Job[]> GetAllJobs()
 	{
 		var jobs = _jsonService.GetAllJobs();
+		jobs.Sort((a, b) => a.JobId <= b.JobId ? 1 : -1);
 		return Ok(jobs);
+	}
+
+	[HttpGet]
+	public ActionResult<Job> GetJobByID(int jobId)
+	{
+		var jobs = _jsonService.GetAllJobs();
+		var job = jobs.Find(j => j.JobId == jobId);
+		return Ok(job);
 	}
 
 	[HttpDelete]
 	public ActionResult<Result<Job>> DeleteJob(int jobId)
 	{
 		var result = _jsonService.DeleteJob(jobId);
-		return result;
+		return Ok(result);
+	}
+
+	[HttpPost]
+	public ActionResult<Result<Job>> EditJob(Job job)
+	{
+		var result = _jsonService.EditJob(job);
+		return Ok(result);
 	}
 
 

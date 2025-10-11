@@ -5,7 +5,23 @@ main {
 .job-cards-wrapper {
     display: grid;
     margin: 0px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
 
+}
+
+@media screen and (min-width: 1900px) {
+    .job-cards-wrapper {
+        grid-template-columns: repeat(4, 1fr)
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .job-cards-wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .job-cards-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
 }

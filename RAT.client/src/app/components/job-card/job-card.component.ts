@@ -7,7 +7,7 @@ import {
     OnInit,
     output,
 } from '@angular/core';
-import Job from '../../models/job';
+import JobDto from '../../dtos/jobDto ';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { JobApiService } from '../../services/job-api.service';
@@ -23,7 +23,7 @@ import { Router } from '@angular/router';
 export class JobCardComponent implements OnInit {
     private readonly jobApiService = inject(JobApiService);
     private readonly router = inject(Router);
-    job = input.required<Job>();
+    job = input.required<JobDto>();
     triggerRefresh = model(new Subject<void>());
     isAddingNew = computed<boolean>(() => this.job().jobId == undefined);
 

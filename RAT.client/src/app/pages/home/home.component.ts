@@ -1,8 +1,16 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import Job from '../../models/job';
+import JobDto from '../../dtos/jobDto ';
 import { JobCardComponent } from '../../components/job-card/job-card.component';
-import { concatMap, Observable, startWith, Subject, switchMap } from 'rxjs';
+import {
+    concatMap,
+    map,
+    Observable,
+    startWith,
+    Subject,
+    switchMap,
+    tap,
+} from 'rxjs';
 import { AsyncPipe } from '@angular/common';
 import { JobApiService } from '../../services/job-api.service';
 
@@ -13,13 +21,14 @@ import { JobApiService } from '../../services/job-api.service';
 })
 export class HomeComponent implements OnInit {
     private readonly jobApiService = inject(JobApiService);
-    jobs$: Observable<Job[]>;
+    jobs$: Observable<JobDto[]>;
     refreshData = new Subject<void>();
 
     ngOnInit(): void {
         this.jobs$ = this.refreshData.pipe(
             startWith(0),
             switchMap(() => this.jobApiService.getAllJobs()),
+            map((jobs) => jobs.sort((a, b) => a.jobId - b.jobId)),
         );
         this.refreshData.next();
     }

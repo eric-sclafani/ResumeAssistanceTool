@@ -85,6 +85,31 @@ public class JsonService : IJsonService
 		return result;
 	}
 
+	public Result<Job> EditJob(Job editedJob)
+	{
+		var result = new Result<Job>();
+		var allJobs = GetAllJobs();
+		var job = allJobs.Find(j => j.JobId == editedJob.JobId);
+		if (job != null)
+		{
+			allJobs.Remove(job); // remove old record of current job
+			allJobs.Add(editedJob); // add the edited one
+
+			var jsonString = JsonSerializer.Serialize(allJobs, options);
+			File.WriteAllText(filePath, jsonString);
+
+			result.Data = editedJob;
+			result.Message = "Success! Job edited";
+		}
+		else
+		{
+			result.Message = "Error: job not found";
+			result.Success = false;
+		}
+
+		return result;
+	}
+
 	private void HandleDataPaths()
 	{
 		if (!Directory.Exists(folderPath)) Directory.CreateDirectory(folderPath);

@@ -1,48 +1,5 @@
 [
   {
-    "JobId": 3,
-    "Title": "C# Developer",
-    "Description": "We are seeking an associate - level developer to join our Equity Derivatives Risk and P\u0026L Management team. You will be part of a team developing a front-office platform used globally for flow, structured, convertibles and delta one desks. This is an excellent opportunity for a motivated individual to learn equity derivatives pricing and risk management while working in a dynamic front-office environment. You will work alongside experienced developers and receive mentoring while contributing to various aspects of the platform including UI, compute grid, and trading services.",
-    "Skills": [
-      "C#",
-      "SQL",
-      "Database",
-      "Team Work",
-      "Communication"
-    ],
-    "JobUrl": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4303204999"
-  },
-  {
-    "JobId": 4,
-    "Title": "Full Stack .NET Developer",
-    "Description": "We are seeking a highly skilled Full Stack .NET Developer with strong experience in cloud-based development to join our growing team. The ideal candidate will have a solid background in building scalable web applications using the Microsoft .NET stack, along with hands-on experience deploying and maintaining applications in the cloud (preferably Azure or AWS). You will play a key role in designing, developing, and delivering enterprise-grade applications that drive business value.",
-    "Skills": [
-      "C#",
-      "ASP.NET Core",
-      ".NET 6/7",
-      "Angular",
-      "Web API",
-      "SQL Server",
-      "Azure"
-    ],
-    "JobUrl": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4297593433"
-  },
-  {
-    "JobId": 5,
-    "Title": "Full Stack Engineer",
-    "Description": "\n\n\u00B7 Designing, coding, testing, and maintaining software applications\n\n\u00B7 Lead software development projects, managing timelines, and ensuring the delivery of high-quality software\n\n\u00B7 Conduct code reviews, ensuring code quality, performance, and adherence to best practices\n\n\u00B7 Analyze and troubleshoot software issues, identifying root causes and implementing effective solutions\n\n\u00B7 Contribute to architectural decisions, technology choices, and overall software strategy",
-    "Skills": [
-      "Typescript",
-      "T-SQL",
-      "C#",
-      "ASP.NET Core MVC",
-      ".NET 9",
-      "Jquery",
-      "SQL Server"
-    ],
-    "JobUrl": "https://www.indeed.com/viewjob?jk=5ec01294d48183a5\u0026from=shareddesktop_copy"
-  },
-  {
     "JobId": 6,
     "Title": "Full Stack Developer",
     "Description": "Looking to add a .NET Developer to a very successful and growing team. Candidate will develop, design, test and deploy websites as well as support and maintain existing functionality.\n\nCandidate should be experienced and productive with Microsoft development technologies. A solid understanding of design patterns, object orientation and best practices is a must. Candidate should be skilled and experienced with the C# language, the .Net platform, Microsoft web technologies and Microsoft development technologies. Mobile application development is a plus.",
@@ -85,5 +42,48 @@
       "Python"
     ],
     "JobUrl": "https://www.indeed.com/viewjob?jk=d70f6e3f48346dc0\u0026from=shareddesktop_copy"
+  },
+  {
+    "JobId": 5,
+    "Title": "Full Stack Engineer ddddddd",
+    "Description": "\n\n\u00B7 Designing, coding, testing, and maintaining software applications\n\n\u00B7 Lead software development projects, managing timelines, and ensuring the delivery of high-quality software\n\n\u00B7 Conduct code reviews, ensuring code quality, performance, and adherence to best practices\n\n\u00B7 Analyze and troubleshoot software issues, identifying root causes and implementing effective solutions\n\n\u00B7 Contribute to architectural decisions, technology choices, and overall software strategy",
+    "Skills": [
+      "Typescript",
+      "T-SQL",
+      "C#",
+      "ASP.NET Core MVC",
+      ".NET 9",
+      "Jquery",
+      "SQL Server"
+    ],
+    "JobUrl": "https://www.indeed.com/viewjob?jk=5ec01294d48183a5\u0026from=shareddesktop_copy"
+  },
+  {
+    "JobId": 4,
+    "Title": "Full Stack .NET Developer",
+    "Description": "We are seeking a highly skilled Full Stack .NET Developer with strong experience in cloud-based development to join our growing team. The ideal candidate will have a solid background in building scalable web applications using the Microsoft .NET stack, along with hands-on experience deploying and maintaining applications in the cloud (preferably Azure or AWS). You will play a key role in designing, developing, and delivering enterprise-grade applications that drive business value.",
+    "Skills": [
+      "C#",
+      "ASP.NET Core",
+      ".NET 6/7",
+      "Angular",
+      "Web API",
+      "SQL Server",
+      "Azure"
+    ],
+    "JobUrl": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4297593433"
+  },
+  {
+    "JobId": 3,
+    "Title": "C# Developer",
+    "Description": "We are seeking an associate - level developer to join our Equity Derivatives Risk and P\u0026L Management team. You will be part of a team developing a front-office platform used globally for flow, structured, convertibles and delta one desks. This is an excellent opportunity for a motivated individual to learn equity derivatives pricing and risk management while working in a dynamic front-office environment. You will work alongside experienced developers and receive mentoring while contributing to various aspects of the platform including UI, compute grid, and trading services.",
+    "Skills": [
+      "C#",
+      "SQL",
+      "Database",
+      "Team Work",
+      "Communication"
+    ],
+    "JobUrl": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4303204999"
   }
 ]

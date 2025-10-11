@@ -1,40 +1,44 @@
-<h1>{{ headerMsg() }} Job</h1>
-<div class="new-job-wrapper">
-    <div class="form-wrapper">
-        @if (mode() == "edit" && jobId() == 0) {
-            <em
-                >Job ID must be supplied when editing a job posting. Check route
-                parameters
-            </em>
-        } @else {
-            <form [formGroup]="fg" (ngSubmit)="onSubmit()">
-                <app-dynamic-input
-                    label="Title"
-                    controlName="title"
-                    [formGroup]="fg"
-                >
-                </app-dynamic-input>
-                <app-dynamic-input
-                    label="Skills"
-                    controlName="skills"
-                    [formGroup]="fg"
-                >
-                </app-dynamic-input>
-                <app-dynamic-input
-                    label="Job Url"
-                    controlName="jobUrl"
-                    [formGroup]="fg"
-                >
-                </app-dynamic-input>
-                <app-dynamic-textarea
-                    label="Description"
-                    controlName="description"
-                    [formGroup]="fg"
-                ></app-dynamic-textarea>
-                <button class="submit" type="submit">Submit</button>
-            </form>
-        }
+<div class="job-page-wrapper">
+    <div class="job-form-wrapper">
+        <h1>{{ headerMsg() }} Job</h1>
+        <div class="job-form">
+            @if (mode() == "edit" && jobId() == 0) {
+                <em
+                    >Job ID must be supplied when editing a job posting. Check
+                    route parameters
+                </em>
+            } @else {
+                <form [formGroup]="fg" (ngSubmit)="onSubmit()">
+                    <app-dynamic-input
+                        label="Title"
+                        controlName="title"
+                        [formGroup]="fg"
+                    >
+                    </app-dynamic-input>
+                    <app-dynamic-input
+                        label="Skills"
+                        controlName="skills"
+                        [formGroup]="fg"
+                    >
+                    </app-dynamic-input>
+                    <app-dynamic-input
+                        label="Job Url"
+                        controlName="jobUrl"
+                        [formGroup]="fg"
+                    >
+                    </app-dynamic-input>
+                    <app-dynamic-textarea
+                        label="Description"
+                        controlName="description"
+                        [formGroup]="fg"
+                    ></app-dynamic-textarea>
+                    <button class="submit" type="submit">Submit</button>
+                </form>
+            }
+        </div>
     </div>
-
-    <app-job-card [job]="jobDisplay()"></app-job-card>
+    <div class="job-preview">
+        <h1>Preview:</h1>
+        <app-job-card [job]="jobDisplay()"></app-job-card>
+    </div>
 </div>
