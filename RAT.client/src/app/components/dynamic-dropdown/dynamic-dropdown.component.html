@@ -1,14 +1,14 @@
 <form [formGroup]="formGroup()" class="input-wrapper">
-    <input
-        type="text"
+    <label [for]="label()">{{ label() }}</label>
+    <select
         [style.width]="dynamicWidth()"
         [id]="label()"
         [name]="label()"
         [formControlName]="controlName()"
-        placeholder=" "
-        autocomplete="off"
-        spellcheck="false"
         required
-    />
-    <label [for]="label()">{{ label() }}</label>
+    >
+        @for (opt of options(); track $index) {
+            <option [value]="opt">{{ opt }}</option>
+        }
+    </select>
 </form>

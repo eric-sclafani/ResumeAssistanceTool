@@ -1,0 +1,65 @@
+.side-nav {
+    margin: 10px 5px;
+    border: solid lightgray 3px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.header {
+    margin-top: 5px;
+}
+
+.special-letter {
+    font-size: 3rem;
+    color: rgb(38, 38, 179);
+}
+
+.home-btn,
+.new-job-btn {
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+
+}
+
+.filter {
+    margin-top: 15px;
+}
+
+.filter-header {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Palatino,
+        URW Palladio L,
+        serif;
+}
+
+hr {
+    margin: 5px;
+}
+
+.filter-header,
+hr {
+    color: rgb(130, 130, 130)
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr::after {
+    background: white;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}

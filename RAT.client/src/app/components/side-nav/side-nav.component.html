@@ -1,0 +1,50 @@
+<div class="side-nav">
+    <h1 class="header">
+        <span class="special-letter">R</span>esume
+        <span class="special-letter">A</span>ssistance
+        <span class="special-letter">T</span>ool
+    </h1>
+    <button
+        class="new-job-btn"
+        routerLink="/job/add/0"
+        [hidden]="currentPage != '/home'"
+    >
+        Add new job
+    </button>
+    <button
+        class="home-btn"
+        routerLink="/home"
+        [hidden]="currentPage == '/home'"
+    >
+        Back to home
+    </button>
+
+    <div class="filter" [hidden]="currentPage != '/home'">
+        <hr />
+        <div class="filter-header">FILTER BY:</div>
+        <hr />
+
+        <form [formGroup]="fg">
+            <app-dynamic-input
+                label="Title"
+                controlName="title"
+                dynamicWidth="250px"
+                [formGroup]="fg"
+            >
+            </app-dynamic-input>
+            <app-dynamic-input
+                label="Skills"
+                controlName="skills"
+                dynamicWidth="250px"
+                [formGroup]="fg"
+            />
+            <app-dynamic-input
+                label="Description"
+                controlName="description"
+                dynamicWidth="250px"
+                [formGroup]="fg"
+            >
+            </app-dynamic-input>
+        </form>
+    </div>
+</div>

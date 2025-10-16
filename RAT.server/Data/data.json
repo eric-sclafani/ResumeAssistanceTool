@@ -44,21 +44,6 @@
     "JobUrl": "https://www.indeed.com/viewjob?jk=d70f6e3f48346dc0\u0026from=shareddesktop_copy"
   },
   {
-    "JobId": 5,
-    "Title": "Full Stack Engineer ddddddd",
-    "Description": "\n\n\u00B7 Designing, coding, testing, and maintaining software applications\n\n\u00B7 Lead software development projects, managing timelines, and ensuring the delivery of high-quality software\n\n\u00B7 Conduct code reviews, ensuring code quality, performance, and adherence to best practices\n\n\u00B7 Analyze and troubleshoot software issues, identifying root causes and implementing effective solutions\n\n\u00B7 Contribute to architectural decisions, technology choices, and overall software strategy",
-    "Skills": [
-      "Typescript",
-      "T-SQL",
-      "C#",
-      "ASP.NET Core MVC",
-      ".NET 9",
-      "Jquery",
-      "SQL Server"
-    ],
-    "JobUrl": "https://www.indeed.com/viewjob?jk=5ec01294d48183a5\u0026from=shareddesktop_copy"
-  },
-  {
     "JobId": 4,
     "Title": "Full Stack .NET Developer",
     "Description": "We are seeking a highly skilled Full Stack .NET Developer with strong experience in cloud-based development to join our growing team. The ideal candidate will have a solid background in building scalable web applications using the Microsoft .NET stack, along with hands-on experience deploying and maintaining applications in the cloud (preferably Azure or AWS). You will play a key role in designing, developing, and delivering enterprise-grade applications that drive business value.",
@@ -85,5 +70,20 @@
       "Communication"
     ],
     "JobUrl": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4303204999"
+  },
+  {
+    "JobId": 5,
+    "Title": "Full Stack Engineer",
+    "Description": "\n\n\u00B7 Designing, coding, testing, and maintaining software applications\n\n\u00B7 Lead software development projects, managing timelines, and ensuring the delivery of high-quality software\n\n\u00B7 Conduct code reviews, ensuring code quality, performance, and adherence to best practices\n\n\u00B7 Analyze and troubleshoot software issues, identifying root causes and implementing effective solutions\n\n\u00B7 Contribute to architectural decisions, technology choices, and overall software strategy",
+    "Skills": [
+      "Typescript",
+      "T-SQL",
+      "C#",
+      "ASP.NET Core MVC",
+      ".NET 9",
+      "Jquery",
+      "SQL Server"
+    ],
+    "JobUrl": "https://www.indeed.com/viewjob?jk=5ec01294d48183a5\u0026from=shareddesktop_copy"
   }
 ]

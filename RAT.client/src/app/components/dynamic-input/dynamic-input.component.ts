@@ -1,5 +1,4 @@
 import { Component, input } from '@angular/core';
-import { NewJobForm } from '../../forms/newJob';
 import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
@@ -11,5 +10,6 @@ import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 export class DynamicInputComponent {
     label = input.required<string>();
     controlName = input.required<string>();
-    formGroup = input.required<FormGroup<NewJobForm>>();
+    formGroup = input.required<FormGroup<any>>();
+    dynamicWidth = input('500px');
 }

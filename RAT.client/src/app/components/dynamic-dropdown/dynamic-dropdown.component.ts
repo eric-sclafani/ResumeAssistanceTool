@@ -2,13 +2,15 @@ import { Component, input } from '@angular/core';
 import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
-    selector: 'app-dynamic-textarea',
+    selector: 'app-dynamic-dropdown',
     imports: [ReactiveFormsModule],
-    templateUrl: './dynamic-textarea.component.html',
-    styleUrl: './dynamic-textarea.component.scss',
+    templateUrl: './dynamic-dropdown.component.html',
+    styleUrl: './dynamic-dropdown.component.scss',
 })
-export class DynamicTextareaComponent {
+export class DynamicDropdownComponent {
     label = input.required<string>();
     controlName = input.required<string>();
     formGroup = input.required<FormGroup<any>>();
+    options = input.required<string[]>();
+    dynamicWidth = input('500px');
 }
