@@ -1,11 +1,12 @@
 .side-nav {
     margin: 10px 5px;
-    border: solid lightgray 3px;
+    border: solid rgb(157, 157, 157) 3px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 10px;
+    background-color: rgba(208, 208, 208, 0.586);
 }
 
 
@@ -21,13 +22,8 @@
 }
 
 .home-btn,
-.new-job-btn {
-    height: 50px;
-    width: 200px;
-    padding: 10px;
-    margin: 0 10px;
-    border-radius: 10px;
-
+.add-btn {
+    align-self: center
 }
 
 .filter {
