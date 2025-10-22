@@ -5,6 +5,7 @@ import { Router, NavigationEnd } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
 import { JobFilter } from '../../forms/jobFilter';
 import { DynamicInputComponent } from '../dynamic-input/dynamic-input.component';
+import { DataService } from '../../services/data.service';
 @Component({
     selector: 'app-side-nav',
     imports: [RouterLink, DynamicInputComponent, ReactiveFormsModule],
@@ -14,12 +15,14 @@ import { DynamicInputComponent } from '../dynamic-input/dynamic-input.component'
 export class SideNavComponent implements OnInit, OnDestroy {
     private readonly router = inject(Router);
     private readonly destroy$ = new Subject<void>();
+    private readonly dataService = inject(DataService);
 
     currentPage: string;
     fg: FormGroup<JobFilter>;
 
     ngOnInit(): void {
         this.initForm();
+        this.initValueChanges();
         this.router.events.pipe(takeUntil(this.destroy$)).subscribe((event) => {
             if (event instanceof NavigationEnd) {
                 this.currentPage = event.urlAfterRedirects;
@@ -32,7 +35,15 @@ export class SideNavComponent implements OnInit, OnDestroy {
         this.destroy$.complete();
     }
 
-    initForm() {
+    private initValueChanges() {
+        this.fg.valueChanges
+            .pipe(takeUntil(this.destroy$))
+            .subscribe((value) => {
+                console.log(value);
+            });
+    }
+
+    private initForm() {
         this.fg = new FormGroup<JobFilter>({
             title: new FormControl(null),
             description: new FormControl(null),

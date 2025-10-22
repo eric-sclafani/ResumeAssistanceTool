@@ -27,23 +27,6 @@
     "JobUrl": "https://www.indeed.com/viewjob?jk=749eff8488e9320c\u0026from=shareddesktop_copy"
   },
   {
-    "JobId": 8,
-    "Title": "Software Developer",
-    "Description": "\n    Design, develop, test, and deploy high-quality software solutions.\n    Collaborate with cross-functional teams (designers, analysts, testers, product managers) to deliver robust applications.\n    Write clean, efficient, and maintainable code.\n    Troubleshoot, debug, and upgrade existing systems.\n    Participate in code reviews and contribute to best practices.\n    Stay updated with emerging technologies, frameworks, and industry trends.\n",
-    "Skills": [
-      "Typescript",
-      "HTML",
-      "Javascript",
-      "Angular",
-      "React",
-      "Nodejs",
-      "Database",
-      "C#",
-      "Python"
-    ],
-    "JobUrl": "https://www.indeed.com/viewjob?jk=d70f6e3f48346dc0\u0026from=shareddesktop_copy"
-  },
-  {
     "JobId": 4,
     "Title": "Full Stack .NET Developer",
     "Description": "We are seeking a highly skilled Full Stack .NET Developer with strong experience in cloud-based development to join our growing team. The ideal candidate will have a solid background in building scalable web applications using the Microsoft .NET stack, along with hands-on experience deploying and maintaining applications in the cloud (preferably Azure or AWS). You will play a key role in designing, developing, and delivering enterprise-grade applications that drive business value.",
@@ -85,5 +68,22 @@
       "SQL Server"
     ],
     "JobUrl": "https://www.indeed.com/viewjob?jk=5ec01294d48183a5\u0026from=shareddesktop_copy"
+  },
+  {
+    "JobId": 8,
+    "Title": "Software Developer",
+    "Description": "\n    Design, develop, test, and deploy high-quality software solutions.\n    Collaborate with cross-functional teams (designers, analysts, testers, product managers) to deliver robust applications.\n    Write clean, efficient, and maintainable code.\n    Troubleshoot, debug, and upgrade existing systems.\n    Participate in code reviews and contribute to best practices.\n    Stay updated with emerging technologies, frameworks, and industry trends.\n",
+    "Skills": [
+      "Typescript",
+      "HTML",
+      "Javascript",
+      "Angular",
+      "React",
+      "Nodejs",
+      "Database",
+      "C#",
+      "Python"
+    ],
+    "JobUrl": "https://www.indeed.com/viewjob?jk=d70f6e3f48346dc0\u0026from=shareddesktop_copy"
   }
 ]

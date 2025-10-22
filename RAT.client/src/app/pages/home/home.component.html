@@ -3,7 +3,7 @@
         @for (job of jobs$ | async; track job.jobId) {
             <app-job-card
                 [job]="job"
-                [(triggerRefresh)]="refreshData"
+                [(triggerRefresh)]="refreshData$"
             ></app-job-card>
         }
     </div>
