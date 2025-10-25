@@ -2,7 +2,7 @@ import { Component, inject, OnDestroy, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { Router, NavigationEnd } from '@angular/router';
-import { Subject, takeUntil } from 'rxjs';
+import { debounceTime, Subject, takeUntil } from 'rxjs';
 import { JobFilter } from '../../forms/jobFilter';
 import { DynamicInputComponent } from '../dynamic-input/dynamic-input.component';
 import { DataService } from '../../services/data.service';
@@ -37,16 +37,17 @@ export class SideNavComponent implements OnInit, OnDestroy {
 
     private initValueChanges() {
         this.fg.valueChanges
-            .pipe(takeUntil(this.destroy$))
+            .pipe(takeUntil(this.destroy$), debounceTime(500))
             .subscribe((value) => {
-                console.log(value);
+                const skills = value.skills as string;
+                const title = value.title as string;
+                this.dataService.applyFilter(skills, title);
             });
     }
 
     private initForm() {
         this.fg = new FormGroup<JobFilter>({
             title: new FormControl(null),
-            description: new FormControl(null),
             skills: new FormControl(null),
         });
     }
